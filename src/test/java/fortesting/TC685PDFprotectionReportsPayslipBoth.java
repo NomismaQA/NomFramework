@@ -19,7 +19,7 @@ import utilities.testmodeller.TestModellerLogger;
 //https://nomisma.cloud.testinsights.io/app/#!/model-engine/guid/3e091eeb-65e5-4077-81b6-7752729c278c
 @Listeners(TestNGListener.class)
 @TestModellerSuite(id = 1411, profileId = 101275)
-public class TC676PDFprotectionReportsPayslipBoth extends TestBase
+public class TC685PDFprotectionReportsPayslipBoth extends TestBase
 {
 	public String sTestCaseID=null;
     String[] data=null;
