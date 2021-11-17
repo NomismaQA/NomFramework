@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+
+
+ 	
+ 	
+ 	<test name= "subscriptPaymentmmgtwhenMidyear" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "PaymentManagement.subscriptPaymentmmgtwhenMidyear"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "subscriptPaymentmmgtwhenfreqMonthly" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "PaymentManagement.subscriptPaymentmmgtwhenfreqMonthly"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "subscriptPaymentmmgtwhenfreqWeekly" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "PaymentManagement.subscriptPaymentmmgtwhenfreqWeekly"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "subScriptPayFrequencyMonthly_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.frequency.subScriptPayFrequencyMonthly_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "subScriptremoveweeklyschedule_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "frequencytest.subScriptremoveweeklyschedule_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 		
+  	</suite>

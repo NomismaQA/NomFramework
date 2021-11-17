@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+
+<test name= "TS01_PM" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "PaymentManagement.TS01_PM"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TS01_PM_Dump" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "PaymentManagement.TS01_PM_Dump"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "GrossPayCalculation_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "_1943_GrossPay_Reports_Test.GrossPayCalculation_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "CD_StatePensionReached" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.CD_StatePensionReached"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "CD_StatePensionReachedfiling" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.CD_StatePensionReachedfiling"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	<test name= "TC6CDJoiningBeforeTxYr_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC6CDJoiningBeforeTxYr_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+
+
+ 
+ 	
+ 	
+ 	
+ 	<test name= "TC6CDJoiningBeforeTxYr_DefaultProfile2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC6CDJoiningBeforeTxYr_DefaultProfile2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	<test name= "TC6CDJoiningBeforeTxYr_DefaultProfile3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC6CDJoiningBeforeTxYr_DefaultProfile3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile1" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC7_CD_Alt_JoiningBetweenTxYr_DefaultProfile3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile1" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC8_CD_Alt_ResignBetweenTxYr_DefaultProfile3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC11_CD_Pay4Monthonly" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC11_CD_Pay4Monthonly"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC11_CD_Pay4Monthonly2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC11_CD_Pay4Monthonly2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC11_CD_Pay4Monthonly3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC11_CD_Pay4Monthonly3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC14_CD_SalaryinOneMonth" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC14_CD_SalaryinOneMonth"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC14_CD_SalaryOneMonth2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC14_CD_SalaryOneMonth2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC19_CDwithPreviousEmp1" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC19_CDwithPreviousEmp1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC19_CDwithPreviousEmpXMLVerify2" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC19_CDwithPreviousEmpXMLVerify2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC19_CDwithPreviousEmpScreenshot3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC19_CDwithPreviousEmpScreenshot3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC29_CD_TwoDir_A1" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC29_CD_TwoDir_A1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC29_CD_TwoDir_A2XML" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC29_CD_TwoDir_A2XML"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC29_CD_TwoDir_A1Screenshot3" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC29_CD_TwoDir_A1Screenshot3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC29_CD_TwoDir_B1" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC29_CD_TwoDir_B1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC29_CD_TwoDir_B2XML" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Company_Director_Tests.TC29_CD_TwoDir_B2XML"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 		
+  	</suite>

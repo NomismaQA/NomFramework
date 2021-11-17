@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+<test name= "SmallerEmployer_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SmallerEmployertest.SmallerEmployer_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+
+ 	<test name= "T1QualifiedforSmallerEmployer_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SmallerEmployertest.T1QualifiedforSmallerEmployer_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "T2QualifiedforSmallerEmployer2022_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SmallerEmployertest.T2QualifiedforSmallerEmployer2022_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "T3NotQualifiedforSmallerEmployer_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SmallerEmployertest.T3NotQualifiedforSmallerEmployer_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "T5MidYearQualifiedforSmallerEmployer_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SmallerEmployertest.T5MidYearQualifiedforSmallerEmployer_DefaultProfile"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	<test name= "SubscriptFirstEPS" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "EPStest.SubscriptFirstEPS"/>
+   			</classes> 		
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 		
+  	</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+		<test name= "TC453_454EmailLogMainContact" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "_2087EmailLog.TC453_454EmailLogMainContact"/>
+   			</classes> 		
+  			
+ 	</test>
+
+ 		
+  	</suite>

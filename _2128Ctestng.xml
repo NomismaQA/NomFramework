@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="_2128CSuite">
+  <test name="_2128CTest">
+    <classes>
+      <class name="_2128AutoPayProtection.TC634PaysliptoEEwithPeriodOption"/>
+      <class name="_2128AutoPayProtection.TC638PaysliptoERandOtherwithPeriodOptionwithNoProtection"/>
+      <class name="_2128AutoPayProtection.TC633NOProtectionandPaysliptoEE"/>
+      <class name="_2128AutoPayProtection.TC631ZIPProtectionandPayslip"/>
+      <class name="_2128AutoPayProtection.TC635PaysliptoERandOtherwithPeriodOption"/>
+      <class name="_2128AutoPayProtection.TC632PDFProtectionandPaysliptoEE"/>
+      <class name="_2128AutoPayProtection.TC636PaysliptoERandOtherwithPeriodOptionwithPDFProtection"/>
+      <class name="_2128AutoPayProtection.TC637PaysliptoERandOtherwithPeriodOptionwithZIPProtection"/>
+    </classes>
+  </test> <!-- _2128CTest -->
+</suite> <!-- _2128CSuite -->

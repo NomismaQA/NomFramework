@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2128">
+  <test  name="_2128Test">
+    <classes>
+      <class name="_2128AutoPayProtection.TC623PDFProtectionTOZIPwithEmployerSummaryEE"/>
+      <class name="_2128AutoPayProtection.TC622PDFProtectionNoPayslipNoSummary"/>
+      <class name="_2128AutoPayProtection.TC617ZIPProtectionwithEmployerSummaryTomainContact"/>
+      <class name="_2128AutoPayProtection.TC628ZIPandPayslip"/>
+      <class name="_2128AutoPayProtection.TC620PDFProtectionwithEmployerSummaryEEMain"/>
+      <class name="_2128AutoPayProtection.TC618ZIPProtectionWhenNoERandPayslip"/>
+      <class name="_2128AutoPayProtection.TC625PDFProtectionTOZIPandthenNoProtectionwithEmployerSummaryEE"/>
+      <class name="_2128AutoPayProtection.TC616ZIPProtectionwithEmployerSummary"/>
+      <class name="_2128AutoPayProtection.TC627MatchEmailTemplatewhentoEE"/>
+      <class name="_2128AutoPayProtection.TC624PDFProtectionTOZIPandthenPDFwithEmployerSummaryEE"/>
+      <class name="_2128AutoPayProtection.TC629PDFProtectionandPayslip"/>
+      <class name="_2128AutoPayProtection.TC621PDFProtectionwithEmployerSummaryOnly"/>
+      <class name="_2128AutoPayProtection.TC626MatchEmailTemplate"/>
+      <class name="_2128AutoPayProtection.TC619PDFProtectionwithEmployerSummaryEE"/>
+      <class name="_2128AutoPayProtection.TC630NOProtectionandPayslip"/>
+      <class name="_2128AutoPayProtection.TC615ZIPProtection1"/>
+    </classes>
+  </test> <!-- _2128Test -->
+</suite> <!-- Suite2128 -->
