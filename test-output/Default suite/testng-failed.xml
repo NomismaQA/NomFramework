@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_2129SummaryCustomized.TC594SummaryDsbEmailQtr">
+      <class name="Volentry_Pension.TC75VCPension_DefaultProfile">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickgetEEPensionClickgetERpensionClickgotoPensionDashboardCl"/>
           <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _2129SummaryCustomized.TC594SummaryDsbEmailQtr -->
+      </class> <!-- Volentry_Pension.TC75VCPension_DefaultProfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

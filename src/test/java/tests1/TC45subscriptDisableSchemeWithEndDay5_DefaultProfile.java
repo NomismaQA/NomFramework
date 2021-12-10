@@ -28,7 +28,7 @@ public class TC45subscriptDisableSchemeWithEndDay5_DefaultProfile extends TestBa
     
     @Test  (groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
-    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs() throws InterruptedException
+    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs() throws Exception
     {
         
     	sTestCaseID="TC45";

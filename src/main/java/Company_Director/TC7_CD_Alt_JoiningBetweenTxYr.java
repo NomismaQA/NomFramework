@@ -6,8 +6,7 @@ import static org.junit.Assert.assertThat;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-
-
+import java.awt.Window;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -516,6 +515,43 @@ public class TC7_CD_Alt_JoiningBetweenTxYr extends BasePage
 	}
 	
 	
+	/**
+ 	 * Click gotoFiling Management
+     * @name Click gotoFiling Management
+     */
+	public void Click_gotoFiling_Management1()
+	{
+        
+		WebElement elem = getWebElement(gotoFiling_ManagementElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_gotoFiling_Management", "Click_gotoFiling_Management failed. Unable to locate object: " + gotoFiling_ManagementElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_gotoFiling_Management", "Click_gotoFiling_Management failed. Unable to locate object: " + gotoFiling_ManagementElem.toString());
+
+			Assert.fail("Unable to locate object: " + gotoFiling_ManagementElem.toString());
+        }
+
+		elem.click();
+		
+//		int len=m_Driver.findElements(By.xpath("//table/tbody/tr/td[5]")).size();
+//		
+//		
+//		
+//		for(int i=len;i<=len;i++)
+//		{
+//			
+//			jsExec.executeScript("arguments[0].scrollIntoView();", m_Driver.findElement(By.xpath("//table/tbody/tr["+i+"]/td[5]")));
+//			m_Driver.findElement(By.xpath("//table/tbody/tr["+i+"]/td[5]")).click();
+//		}
+          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_gotoFiling_Management");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_gotoFiling_Management");
+	}
+	
+	
 	
     
 	/**
@@ -544,6 +580,47 @@ public class TC7_CD_Alt_JoiningBetweenTxYr extends BasePage
 		m_Driver.switchTo().defaultContent();
 
  		
+  		ExtentReportManager.passStep(m_Driver, "Enter_getXMLData " + getXMLDataElem);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_getXMLData " + getXMLDataElem);
+ 	}
+ 	
+ 	
+ 	/**
+ 	 * Enter getXMLData
+ 	 * @throws InterruptedException 
+     * @name Enter getXMLData
+     */
+ 	public void Enter_getXMLData1() throws InterruptedException
+ 	{
+ 	    
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div/div[3]/div/div[5]/div/div/div[2]/iframe")));
+
+ 		WebElement elem = getWebElement(getXMLDataElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_getXMLData", "Enter_getXMLData failed. Unable to locate object: " + getXMLDataElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_getXMLData", "Enter_getXMLData failed. Unable to locate object: " + getXMLDataElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + getXMLDataElem.toString());
+         }
+ 		
+ 		m_Driver.findElement(By.xpath("//a[starts-with(text(), 'Regenerate Rti Xml')]")).click();
+ 		
+ 		Thread.sleep(2000);
+ 		elem=m_Driver.findElement(By.xpath("//TEXTAREA[@name='ctl00$ctl00$ParentContent$cPH$txtData']"));
+ 		elem.click();
+ 		textArea1=elem;
+ //		clickFpselem=elem;
+ 		
+ 		
+ 	
+ //		m_Driver.findElement(By.xpath("//*[@id='PopUpClose']/span")).click();
+ 		
+		m_Driver.switchTo().defaultContent();
+		
+
   		ExtentReportManager.passStep(m_Driver, "Enter_getXMLData " + getXMLDataElem);
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_getXMLData " + getXMLDataElem);
@@ -708,6 +785,56 @@ public class TC7_CD_Alt_JoiningBetweenTxYr extends BasePage
     	
     	m_Driver.switchTo().defaultContent();
     }
+
+
+	public void verifyTaxablegross() throws ParserConfigurationException, SAXException, IOException, InterruptedException {
+		
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div/div[3]/div/div[5]/div/div/div[2]/iframe")));
+//    	pages.Library lib=new pages.Library(m_Driver);
+    	
+    	
+    	
+    	String xmlText=textArea1.getText();
+ 
+    	
+    	
+/*
+ * XML Data verification
+ *     	
+ */
+    	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+    	DocumentBuilder dBuilder= dbFactory.newDocumentBuilder();
+
+        
+    	
+    	InputSource src = new InputSource();
+    	src.setCharacterStream(new StringReader(xmlText));
+    	Document doc = dBuilder.parse(src);
+    	String XMLLELValue = doc.getElementsByTagName("TaxablePay").item(1).getTextContent();
+    	
+    	System.out.println("Amount="+XMLLELValue);
+    	int count=0;
+    	if (XMLLELValue.contains("-"))
+    	{
+    		count+=1;
+    		Assert.assertTrue(count==0);
+    	}
+    	
+
+    	
+    	m_Driver.switchTo().defaultContent();
+    	
+    	
+		jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//button[@type='button']")));
+		Thread.sleep(5000);
+ 		
+	//	jsExec.executeScript("arguments[0].scrollIntoView();", m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cpHeading_ddlPayrollFrequency']")));
+    	
+    	System.out.println("Hi I'm Switch");
+    	
+    	m_Driver.switchTo().defaultContent();
+		
+	}
 
      
 //	/**

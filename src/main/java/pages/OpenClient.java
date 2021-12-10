@@ -2,6 +2,7 @@ package pages;
 
 import pages.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -11,6 +12,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.ChangeWindow;
 import utilities.ClosePopup;
+import utilities.TakeScreenshot;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -97,9 +99,10 @@ public class OpenClient extends BasePage
       
 	/**
  	 * Enter EnterClientName
+	 * @throws Exception 
      * @name Enter EnterClientName
      */
- 	public void Enter_EnterClientName(String EnterClientName)
+ 	public void Enter_EnterClientName(String EnterClientName) throws Exception
  	{
  	    
  		WebElement elem = getWebElement(EnterClientNameElem);
@@ -111,6 +114,9 @@ public class OpenClient extends BasePage
 
  			Assert.fail("Unable to locate object: " + EnterClientNameElem.toString());
          }
+ 		
+ 		
+ 		TakeScreenshot.takeScreenshot(m_Driver, "AgentPageError");
 
  		elem.sendKeys(EnterClientName);
  	//	ClosePopup.ValidateAndPopUp(m_Driver);

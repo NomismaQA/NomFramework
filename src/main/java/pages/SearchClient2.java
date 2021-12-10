@@ -77,6 +77,7 @@ public class SearchClient2 extends BasePage
 			Assert.fail("Unable to locate object: " + ClientsClickElem.toString());
         }
 
+		ClosePopup.ValidateAndPopUp(m_Driver);
 		jsExec.executeScript("arguments[0].click();", elem);
           	
 

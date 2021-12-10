@@ -5,23 +5,51 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="TC594SummaryDsbEmailQtr(failed)" verbose="10">
+  <test thread-count="5" name="TC01_AutoRunPayroll(failed)" verbose="10">
     <classes>
-      <class name="_2129SummaryCustomized.TC594SummaryDsbEmailQtr">
+      <class name="_1939_tests.TC01_AutoRunPayroll">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1939_tests.TC01_AutoRunPayroll -->
+    </classes>
+  </test> <!-- TC01_AutoRunPayroll(failed) -->
+  <test thread-count="5" name="T157TC04_1760_ERNI_MaxEmpAllow_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="_1760ER_Allow.T157TC04_1760_ERNI_MaxEmpAllow_DefaultProfile">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
           <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _2129SummaryCustomized.TC594SummaryDsbEmailQtr -->
+      </class> <!-- _1760ER_Allow.T157TC04_1760_ERNI_MaxEmpAllow_DefaultProfile -->
     </classes>
-  </test> <!-- TC594SummaryDsbEmailQtr(failed) -->
-  <test thread-count="5" name="TC669ZIPEmailfromDSBtoER(failed)" verbose="10">
+  </test> <!-- T157TC04_1760_ERNI_MaxEmpAllow_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC26subscriptFillingManagment_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="_1911test.TC669ZIPEmailfromDSBtoER">
+      <class name="test.frequency.TC26subscriptFillingManagment_DefaultProfile">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- test.frequency.TC26subscriptFillingManagment_DefaultProfile -->
+    </classes>
+  </test> <!-- TC26subscriptFillingManagment_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC16subScriptAutomaticPayroll_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.TC16subScriptAutomaticPayroll_DefaultProfile">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
@@ -30,7 +58,133 @@
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1911test.TC669ZIPEmailfromDSBtoER -->
+      </class> <!-- tests.TC16subScriptAutomaticPayroll_DefaultProfile -->
     </classes>
-  </test> <!-- TC669ZIPEmailfromDSBtoER(failed) -->
+  </test> <!-- TC16subScriptAutomaticPayroll_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC17subScriptMannualPayroll_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.TC17subScriptMannualPayroll_DefaultProfile">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.TC17subScriptMannualPayroll_DefaultProfile -->
+    </classes>
+  </test> <!-- TC17subScriptMannualPayroll_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC75VCPension_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="Volentry_Pension.TC75VCPension_DefaultProfile">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickgetEEPensionClickgetERpensionClickgotoPensionDashboardCl"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- Volentry_Pension.TC75VCPension_DefaultProfile -->
+    </classes>
+  </test> <!-- TC75VCPension_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC10_AutoRunPayrollBackDate(failed)" verbose="10">
+    <classes>
+      <class name="_1939_tests.TC10_AutoRunPayrollBackDate">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1939_tests.TC10_AutoRunPayrollBackDate -->
+    </classes>
+  </test> <!-- TC10_AutoRunPayrollBackDate(failed) -->
+  <test thread-count="5" name="TC193VerifySubContrwithNI_0(failed)" verbose="10">
+    <classes>
+      <class name="_1399subContr.TC193VerifySubContrwithNI_0">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1399subContr.TC193VerifySubContrwithNI_0 -->
+    </classes>
+  </test> <!-- TC193VerifySubContrwithNI_0(failed) -->
+  <test thread-count="5" name="TC219verifysummaryPaye_NIforMonthJune(failed)" verbose="10">
+    <classes>
+      <class name="_1756PayrollSummary.TC219verifysummaryPaye_NIforMonthJune">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1756PayrollSummary.TC219verifysummaryPaye_NIforMonthJune -->
+    </classes>
+  </test> <!-- TC219verifysummaryPaye_NIforMonthJune(failed) -->
+  <test thread-count="5" name="TC280chkPaymntspfsummarywhenQtr_AllowanceinStart(failed)" verbose="10">
+    <classes>
+      <class name="verifySummaryReportsData.TC280chkPaymntspfsummarywhenQtr_AllowanceinStart">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- verifySummaryReportsData.TC280chkPaymntspfsummarywhenQtr_AllowanceinStart -->
+    </classes>
+  </test> <!-- TC280chkPaymntspfsummarywhenQtr_AllowanceinStart(failed) -->
+  <test thread-count="5" name="SMP_XML(failed)" verbose="10">
+    <classes>
+      <class name="SMP_XML.TC551SMP_XMLFortNight2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickclickP11ClickgetLELAmountClickgetPTAmountClickgetUELAmou"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- SMP_XML.TC551SMP_XMLFortNight2 -->
+    </classes>
+  </test> <!-- SMP_XML(failed) -->
+  <test thread-count="5" name="_1853Test(failed)" verbose="10">
+    <classes>
+      <class name="_1853Test.TC581IndividualEmployeeP60">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveSelectselectTaxYearsEnterEnterNotesPositiveSelectSubmitReasonClickNott"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1853Test.TC581IndividualEmployeeP60 -->
+    </classes>
+  </test> <!-- _1853Test(failed) -->
+  <test thread-count="5" name="_1911Test(failed)" verbose="10">
+    <classes>
+      <class name="_1911test.TC668ZIPEmailfromDSBtoEmp">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1911test.TC668ZIPEmailfromDSBtoEmp -->
+    </classes>
+  </test> <!-- _1911Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

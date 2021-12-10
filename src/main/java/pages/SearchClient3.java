@@ -10,6 +10,7 @@ import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.ChangeWindow;
+import utilities.ClosePopup;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -76,6 +77,7 @@ public class SearchClient3 extends BasePage
 			Assert.fail("Unable to locate object: " + ClientsClickElem.toString());
         }
 
+		ClosePopup.ValidateAndPopUp(m_Driver);
 		jsExec.executeScript("arguments[0].click();", elem);
           	
 

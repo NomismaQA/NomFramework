@@ -36,7 +36,7 @@ public class TC527EmailfromAgentsetNomisma extends TestBase
         Sheet="Sheet3";
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
         
-        pages.loginpage4 _loginpage = new pages.loginpage4(driver);
+        pages.loginpageSandbox _loginpage = new pages.loginpageSandbox(driver);
     TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
     _loginpage.GoToUrl();
     
@@ -87,7 +87,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     TestModellerLogger.SetLastNodeGuid("72f2a607-7bb7-4908-9100-959f8a7536f9");
     Emailsetting.Click_Email_Settings();
     
-    
+  /*  
     TestModellerLogger.SetLastNodeGuid("72f2a607-7bb7-4908-9100-959f8a7536f9");
     Emailsetting.Select_SMTPConfigCode(data[4]);
     
@@ -182,7 +182,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
      PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
 	    
 	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();			*/
      
    
   

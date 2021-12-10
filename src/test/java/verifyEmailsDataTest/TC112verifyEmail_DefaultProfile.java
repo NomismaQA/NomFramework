@@ -32,7 +32,7 @@ public class TC112verifyEmail_DefaultProfile extends TestBase
     
     @Test  (groups= {"verifyEmail","verifyEmail - Default Profile"})
     @TestModellerPath(guid = "40db4321-172b-4db3-ab0c-dd55b8dbac6c")
-    public void GoToUrlAssertUrlClickRunPayroll1PositiveSelectSelecttoMainContactClickRunPayroll2ClickopenPayr() throws InterruptedException, IOException
+    public void GoToUrlAssertUrlClickRunPayroll1PositiveSelectSelecttoMainContactClickRunPayroll2ClickopenPayr() throws Exception
     {
     	
     	sTestCaseID="TC112";

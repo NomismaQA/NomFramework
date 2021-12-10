@@ -30,7 +30,7 @@ public class TC53subscriptMulfreqQPSdisable extends TestBase
     
     @Test  (groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
-    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs() throws InterruptedException, ParseException
+    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs() throws Exception
     {
         
     	sTestCaseID="TC53";
