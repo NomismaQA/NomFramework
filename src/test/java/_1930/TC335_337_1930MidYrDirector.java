@@ -40,7 +40,7 @@ public class TC335_337_1930MidYrDirector extends TestBase
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
      
      
-     pages.loginpage3 _loginpage = new pages.loginpage3(driver);
+     pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
  TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
  _loginpage.GoToUrl();
  
@@ -189,7 +189,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
      
      
-     pages.loginpage3 _loginpage = new pages.loginpage3(driver);
+     pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
  TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
  _loginpage.GoToUrl();
  
@@ -335,7 +335,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
      
      
-     pages.loginpage3 _loginpage = new pages.loginpage3(driver);
+     pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
  TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
  _loginpage.GoToUrl();
  

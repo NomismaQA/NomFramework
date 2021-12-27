@@ -30,7 +30,7 @@ public class TC32createContractorInCIS_DefaultProfile extends TestBase
     
     @Test  (groups= {"subscriptPaymentManagement","subscriptPaymentManagement - Default Profile"})
     @TestModellerPath(guid = "c0f6a15e-465e-41ec-b39a-f32adccede0e")
-    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1() throws InterruptedException
+    public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1() throws Exception
     {
     	
     	sTestCaseID="TC32";

@@ -1,6 +1,10 @@
 package pages;
 
 import pages.BasePage;
+
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.ChangeWindow;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -97,9 +102,10 @@ public class paswProtectionPDF extends BasePage
      
 	/**
  	 * Click clickSave
+	 * @throws InterruptedException 
      * @name Click clickSave
      */
-	public void Click_clickSave()
+	public void Click_clickSave() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(clickSaveElem);
@@ -112,7 +118,10 @@ public class paswProtectionPDF extends BasePage
 			Assert.fail("Unable to locate object: " + clickSaveElem.toString());
         }
 
-		elem.click();
+		//elem.click();
+		jsExec.executeScript("arguments[0].click()", elem);
+		
+		Thread.sleep(3000);
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click_clickSave");
@@ -253,5 +262,29 @@ public class paswProtectionPDF extends BasePage
 		ExtentReportManager.passStep(m_Driver, "Click_PayrollgeneratedMessage");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_PayrollgeneratedMessage");
+	}
+
+
+	public void SwitchToAgentPage(int index) throws InterruptedException {
+		
+		String windowId=null;
+		Set<String> windowIds= m_Driver.getWindowHandles();
+		Iterator<String> itr=windowIds.iterator();
+		
+//		String mainWindow=itr.next();
+//		String childWindow=itr.next();
+		
+		for(int i=1; i<=index; i++)
+		{
+		
+			windowId=itr.next();
+		
+		}
+		
+		m_Driver.switchTo().window(windowId);
+		
+		Thread.sleep(1000);
+		
+		
 	}
 }

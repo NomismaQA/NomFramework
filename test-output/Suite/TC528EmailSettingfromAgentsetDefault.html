@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 11 01:53:28 IST 2021</td>
+<td>Started on:</td><td>Tue Dec 21 09:07:00 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20299 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21344 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='_2105EmailTest.TC528EmailSettingfromAgentsetDefault.GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs()'><b>GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs</b><br>Test class: _2105EmailTest.TC528EmailSettingfromAgentsetDefault</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: DEFAULT
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;NOM-31&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
-	at _2105Email.AgentEmailSetting.Select_SMTPConfigCode(AgentEmailSetting.java:147)
-	at _2105EmailTest.TC528EmailSettingfromAgentsetDefault.GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs(TC528EmailSettingfromAgentsetDefault.java:92)
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //SPAN[@id=&apos;__tab_ctl00_ctl00_ParentContent_cPH_tbContainer_TbpnlEmailSetting&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at _2105Email.AgentEmailSetting.Click_Email_Settings(AgentEmailSetting.java:115)
+	at _2105EmailTest.TC528EmailSettingfromAgentsetDefault.GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs(TC528EmailSettingfromAgentsetDefault.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,15 +108,11 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1829894344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829894344'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: DEFAULT
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;NOM-31&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
-	at _2105Email.AgentEmailSetting.Select_SMTPConfigCode(AgentEmailSetting.java:147)
-	at _2105EmailTest.TC528EmailSettingfromAgentsetDefault.GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs(TC528EmailSettingfromAgentsetDefault.java:92)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2039096349", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2039096349'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //SPAN[@id=&apos;__tab_ctl00_ctl00_ParentContent_cPH_tbContainer_TbpnlEmailSetting&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at _2105Email.AgentEmailSetting.Click_Email_Settings(AgentEmailSetting.java:115)
+	at _2105EmailTest.TC528EmailSettingfromAgentsetDefault.GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs(TC528EmailSettingfromAgentsetDefault.java:88)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,8 +142,8 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>18</td>
-<td>_2105EmailTest.TC528EmailSettingfromAgentsetDefault@fabb651</td></tr>
+<td>19</td>
+<td>_2105EmailTest.TC528EmailSettingfromAgentsetDefault@27e5b378</td></tr>
 </table><p>
 </body>
 </html>

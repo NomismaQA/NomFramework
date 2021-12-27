@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="_1748Suite">
+  <test name="_1748Test">
+    <classes>
+      <class name="_1748RunPayrollfromAgent.TC809_811RunPayrollTable"/>
+      <class name="_1748RunPayrollfromAgent.TC732_737CheckPayroll_AwaitingReviewClient2"/>
+      <class name="_1748RunPayrollfromAgent.TC726_731CheckPayroll_OnHoldClient1"/>
+      <class name="_1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE"/>
+    </classes>
+  </test> <!-- _1748Test -->
+</suite> <!-- _1748Suite -->

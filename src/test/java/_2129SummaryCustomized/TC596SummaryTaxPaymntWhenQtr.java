@@ -31,7 +31,7 @@ public class TC596SummaryTaxPaymntWhenQtr extends TestBase
     
     @Test  (groups= {"_2129SummaryPayslipEmailtest","_2129SummaryPayslipEmailtest - Test Cases"})
     @TestModellerPath(guid = "f5dec0da-35b5-415f-83ce-d5b8fd7b5bbe")
-    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila() throws InterruptedException
+    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila() throws Exception
     {
     	
     	sTestCaseID="TC596";

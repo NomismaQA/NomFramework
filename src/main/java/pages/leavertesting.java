@@ -2,6 +2,7 @@ package pages;
 
 import pages.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,7 +35,7 @@ public class leavertesting extends BasePage
 
 	private By EnterLeavingDateElem = By.xpath("//INPUT[@name='ctl00$ctl00$ParentContent$cPH$txtLeavingDate']");
 
-	private By SaveButtonElem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cphFooter_btnSave']");
+	private By SaveButtonElem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cPH_btnSave']");
 
 	private By RunPayroll1Elem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cPHFilter_btnRunPayroll']");
 
@@ -169,12 +170,71 @@ public class leavertesting extends BasePage
 
  			Assert.fail("Unable to locate object: " + EnterLeavingDateElem.toString());
          }
-
+ 		for(int i=0;i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(EnterLeavingDate);
  		
  	//	m_Driver.switchTo().defaultContent();
  		
 	//TakeScreenshot.takeScreenshot(m_Driver, "LeavingDateError");
+//		
+// 		Thread.sleep(5000);
+//		elem.clear();
+// 		elem.sendKeys("28/05/2020");
+ 		
+ 		
+	m_Driver.switchTo().defaultContent();
+//		
+//		m_Driver.navigate().refresh();
+//		elem.sendKeys("28/05/2020");
+//		
+
+		
+		
+
+ 		
+  		ExtentReportManager.passStep(m_Driver, "Enter_EnterLeavingDate " + EnterLeavingDate);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_EnterLeavingDate " + EnterLeavingDate);
+ 	}
+ 	
+ 	
+ 	/**
+ 	 * Enter EnterLeavingDate
+	 * @throws Exception 
+     * @name Enter EnterLeavingDate
+     */
+ 	public void Enter_EnterLeavingDate1(String EnterLeavingDate) throws Exception
+ 	{
+ 	    
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='LeaverPopUp']/div/div/div[2]/iframe")));
+
+ 		WebElement elem = getWebElement(EnterLeavingDateElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_EnterLeavingDate", "Enter_EnterLeavingDate failed. Unable to locate object: " + EnterLeavingDateElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_EnterLeavingDate", "Enter_EnterLeavingDate failed. Unable to locate object: " + EnterLeavingDateElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + EnterLeavingDateElem.toString());
+         }
+ 		for(int i=0;i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
+ 		elem.sendKeys(EnterLeavingDate);
+ 		
+ 		elem.sendKeys(Keys.TAB);
+ 		
+ 		
+ 		
+ 	//	m_Driver.switchTo().defaultContent();
+ 		
+	TakeScreenshot.takeScreenshot(m_Driver, "LeavingDateError");
+	
+	m_Driver.findElement(By.xpath("//a[@id='ctl00_ctl00_ParentContent_cPH_btnCancel']")).click();
 //		
 // 		Thread.sleep(5000);
 //		elem.clear();

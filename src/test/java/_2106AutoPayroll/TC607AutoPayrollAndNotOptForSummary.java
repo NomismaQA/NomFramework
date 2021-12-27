@@ -188,8 +188,8 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 //  _PaymentMmgt.Click_MarkYestoPaymentMmgt();
 //  
 //
-  TestModellerLogger.SetLastNodeGuid("80af7c8d-d174-4330-ae3d-d09047f3fdc2");
-  _PaymentMmgt.Click_clickSave();
+//  TestModellerLogger.SetLastNodeGuid("80af7c8d-d174-4330-ae3d-d09047f3fdc2");
+//  _PaymentMmgt.Click_clickSave();
   
 	
 	

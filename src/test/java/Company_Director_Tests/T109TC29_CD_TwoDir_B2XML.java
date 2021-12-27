@@ -36,7 +36,7 @@ public class T109TC29_CD_TwoDir_B2XML extends TestBase
     
     @Test  (groups= {"CDBeforeTxYrLow","CDBeforeTxYrLow - Default Profile"})
     @TestModellerPath(guid = "6154f8da-3ed2-4656-be58-d9e49ddd2601")
-    public void GoToUrlAssertUrlClickgotoReportsClickclickP11ClickgetLELAmountClickgetPTAmountClickgetUELAmou() throws InterruptedException, ParserConfigurationException, SAXException, IOException
+    public void GoToUrlAssertUrlClickgotoReportsClickclickP11ClickgetLELAmountClickgetPTAmountClickgetUELAmou() throws Exception
     {
     	
     	sTestCaseID="TC109";

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 10 20:57:06 IST 2021</td>
+<td>Started on:</td><td>Tue Dec 21 04:19:45 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>36 seconds (36803 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36480 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,30 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.TC10subscriptDeregisterWithEmploye_DefaultProfile.GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1()'><b>GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1</b><br>Test class: tests.TC10subscriptDeregisterWithEmploye_DefaultProfile</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //INPUT[@name=&apos;ctl00$ctl00$ParentContent$cPHFilter$txtSearchCompany&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.SearchClient2.Enter_EnterClientName(SearchClient2.java:103)
-	at tests.TC10subscriptDeregisterWithEmploye_DefaultProfile.GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1(TC10subscriptDeregisterWithEmploye_DefaultProfile.java:93)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NOM-31&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1829201c5cbe64ae7acd9844c48b317
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at pages.leavertesting3.Click_gotoPayroll(leavertesting3.java:152)
+	at tests.TC10subscriptDeregisterWithEmploye_DefaultProfile.GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1(TC10subscriptDeregisterWithEmploye_DefaultProfile.java:107)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,11 +128,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1936262654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1936262654'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //INPUT[@name=&apos;ctl00$ctl00$ParentContent$cPHFilter$txtSearchCompany&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.SearchClient2.Enter_EnterClientName(SearchClient2.java:103)
-	at tests.TC10subscriptDeregisterWithEmploye_DefaultProfile.GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1(TC10subscriptDeregisterWithEmploye_DefaultProfile.java:93)
+</pre></div><a href='#' onClick='toggleBox("stack-trace849575186", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace849575186'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NOM-31&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1829201c5cbe64ae7acd9844c48b317
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at pages.leavertesting3.Click_gotoPayroll(leavertesting3.java:152)
+	at tests.TC10subscriptDeregisterWithEmploye_DefaultProfile.GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS1(TC10subscriptDeregisterWithEmploye_DefaultProfile.java:107)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,7 +183,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>33</td>
-<td>tests.TC10subscriptDeregisterWithEmploye_DefaultProfile@b09fac1</td></tr>
+<td>tests.TC10subscriptDeregisterWithEmploye_DefaultProfile@62df0ff3</td></tr>
 </table><p>
 </body>
 </html>

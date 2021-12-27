@@ -14,6 +14,7 @@ import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.ChangeWindow;
+import utilities.ClosePopup;
 import utilities.TakeScreenshot;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
@@ -141,6 +142,8 @@ public class CIS_Dashboard extends BasePage
 		elem.click();
 		
 		Thread.sleep(1000);
+		
+		ClosePopup.ValidateAndPopUp(m_Driver);
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click_gotoCIS");

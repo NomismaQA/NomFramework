@@ -35,7 +35,7 @@ public class TC579NotToSubmitEmployeePayslip extends TestBase
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
         
         
-        pages.loginpage _loginpage = new pages.loginpage(driver);
+        pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
         TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
         _loginpage.GoToUrl();
         
@@ -154,26 +154,26 @@ public class TC579NotToSubmitEmployeePayslip extends TestBase
 //    _FilingManagement.Click_checkFile();
     
     
-    pages.EmployeeDasboard _EmployeeDasboard = new pages.EmployeeDasboard(driver);
-    
-    TestModellerLogger.SetLastNodeGuid("6da537b6-848a-49d4-b76d-d299bfdf2cbd");
-    _EmployeeDasboard.Click_Employer_View();
-    
-
-    TestModellerLogger.SetLastNodeGuid("4c605f32-8701-4019-ac26-5917ffe5e080");
-    _EmployeeDasboard.Enter_search_imployee("A");
-    
-
-    TestModellerLogger.SetLastNodeGuid("4703a6ed-27cf-4287-a0b8-90941fc7c5de");
-    _EmployeeDasboard.Click__Search();
-    
-
-    TestModellerLogger.SetLastNodeGuid("d99dfe27-c5f8-458a-ba06-1330178a3215");
-    _EmployeeDasboard.Click_ClickOnEmployee();
-    
-
-    TestModellerLogger.SetLastNodeGuid("04689667-af12-4920-8dfe-ec7c614a40c2");
-    _EmployeeDasboard.Click__Employee_Dashboard_();
+//    pages.EmployeeDasboard _EmployeeDasboard = new pages.EmployeeDasboard(driver);
+//    
+//    TestModellerLogger.SetLastNodeGuid("6da537b6-848a-49d4-b76d-d299bfdf2cbd");
+//    _EmployeeDasboard.Click_Employer_View();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("4c605f32-8701-4019-ac26-5917ffe5e080");
+//    _EmployeeDasboard.Enter_search_imployee("A");
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("4703a6ed-27cf-4287-a0b8-90941fc7c5de");
+//    _EmployeeDasboard.Click__Search();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("d99dfe27-c5f8-458a-ba06-1330178a3215");
+//    _EmployeeDasboard.Click_ClickOnEmployee();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("04689667-af12-4920-8dfe-ec7c614a40c2");
+//    _EmployeeDasboard.Click__Employee_Dashboard_();
     
 
     TestModellerLogger.SetLastNodeGuid("ee699ef2-b0b4-4242-986c-61e64dbc354e");

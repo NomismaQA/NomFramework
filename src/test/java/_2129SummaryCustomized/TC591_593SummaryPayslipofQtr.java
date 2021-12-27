@@ -31,7 +31,7 @@ public class TC591_593SummaryPayslipofQtr extends TestBase
     
     @Test  (groups= {"_2129SummaryPayslipEmailtest","_2129SummaryPayslipEmailtest - Test Cases"})
     @TestModellerPath(guid = "f5dec0da-35b5-415f-83ce-d5b8fd7b5bbe")
-    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila() throws InterruptedException
+    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila() throws Exception
     {
     	
     	sTestCaseID="TC591";
@@ -163,7 +163,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
     @Test  (groups= {"_2129SummaryPayslipEmailtest","_2129SummaryPayslipEmailtest - Test Cases"})
     @TestModellerPath(guid = "5fe9031f-16bb-4b17-9adc-50c49c223ccc")
-    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila1() throws InterruptedException
+    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila1() throws Exception
     {
     	
     	
@@ -296,7 +296,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
     @Test  (groups= {"_2129SummaryPayslipEmailtest","_2129SummaryPayslipEmailtest - Test Cases"})
     @TestModellerPath(guid = "48c5d4b8-dcea-4333-b823-a7e374ba05b4")
-    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila2() throws InterruptedException
+    public void GoToUrlAssertUrlClickPayslipsPositiveSelectPayrollDateClickEmailPayslipsClickTickCompanyemaila2() throws Exception
     {
     	
     	

@@ -22,7 +22,7 @@ public class openClienttest_DefaultProfile extends TestBase
     
     @Test  (groups= {"openClienttest","openClienttest - Default Profile"})
     @TestModellerPath(guid = "480a2110-a609-4c56-a142-f986e760d8da")
-    public void GoToUrlAssertUrlClickClientsClickPositiveEnterEnterClientNameClickClickSearchClickClickClient() throws InterruptedException
+    public void GoToUrlAssertUrlClickClientsClickPositiveEnterEnterClientNameClickClickSearchClickClickClient() throws Exception
     {
         
         pages.OpenClient _OpenClient = new pages.OpenClient(driver);

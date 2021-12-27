@@ -31,7 +31,7 @@ public class TC598_600SendEmailofQtrPayrollWeeklyFrq extends TestBase
     
     @Test  (groups= {"2129_SummaryForEmailTest","2129_SummaryForEmailTest - Default Profile"})
     @TestModellerPath(guid = "cd0aa4cd-2a48-40ab-b71b-b7e3747d372b")
-    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy() throws InterruptedException
+    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy() throws Exception
     {
     	
     	sTestCaseID="TC598";
@@ -180,7 +180,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
     @Test  (groups= {"2129_SummaryForEmailTest","2129_SummaryForEmailTest - Default Profile"})
     @TestModellerPath(guid = "759907d7-009d-43dc-bfbe-58ac81dd52f8")
-    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy1() throws InterruptedException
+    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy1() throws Exception
     {
     	
     	
@@ -330,7 +330,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
     @Test  (groups= {"2129_SummaryForEmailTest","2129_SummaryForEmailTest - Default Profile"})
     @TestModellerPath(guid = "8618060f-69db-44e9-990e-a5188a1adc6f")
-    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy2() throws InterruptedException
+    public void GoToUrlAssertUrlPositiveSelectPayrollDateClickEmailClickTickCompanyemailaddressClickTickEmploy2() throws Exception
     {
     	
     	

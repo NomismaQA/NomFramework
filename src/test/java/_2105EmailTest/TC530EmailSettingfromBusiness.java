@@ -116,11 +116,11 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
   TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
   _OpenClient.Click_ClickSearch();
   
-
+  /* 
   TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
   _OpenClient.Click_ClickClient();
   
-  
+
   verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
  //TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
  //_verifyClosePayeErrorMessage.GoToUrl();
@@ -181,7 +181,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
      PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
 	    
 	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();			*/
    
-    }
+    }				
 }

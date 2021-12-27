@@ -35,7 +35,7 @@ public class TC581IndividualEmployeeP60 extends TestBase
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
         
         
-        pages.loginpage _loginpage = new pages.loginpage(driver);
+        pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
         TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
         _loginpage.GoToUrl();
         

@@ -27,7 +27,7 @@ public class TC85GrossPayCalculation_DefaultProfile extends TestBase
     
     @Test  (groups= {"Gross Pay Calculation","Gross Pay Calculation - Default Profile"})
     @TestModellerPath(guid = "1c009671-6fcc-42f6-8a38-8a40d6118463")
-    public void GoToUrlAssertUrlClickEEGrossPayClickclickRunPayroll1ClickclickRunPayroll2ClickgotoReportsClic() throws InterruptedException
+    public void GoToUrlAssertUrlClickEEGrossPayClickclickRunPayroll1ClickclickRunPayroll2ClickgotoReportsClic() throws Exception
     {
     	
     	sTestCaseID="TC85";
