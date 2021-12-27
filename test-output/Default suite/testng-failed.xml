@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Volentry_Pension.TC75VCPension_DefaultProfile">
+      <class name="_1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
-          <include name="GoToUrlAssertUrlClickgotoReportsClickgetEEPensionClickgetERpensionClickgotoPensionDashboardCl"/>
+          <include name="runPayrollPopupNoRTI"/>
           <include name="setupReporter"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- Volentry_Pension.TC75VCPension_DefaultProfile -->
+      </class> <!-- _1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

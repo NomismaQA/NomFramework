@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="_1743BSuite">
+  <test  name="_1743BTest">
+    <classes>
+      <class name="_1743B.TC20"/>
+      <class name="_1743B._174340"/>
+      <class name="_1743B.TC19"/>
+      <class name="_1743B.TC18"/>
+      <class name="_1743B.AgentDsb32"/>
+      <class name="_1743B.TC6"/>
+      <class name="_1743B.TC7"/>
+      <class name="_1743B.TC8"/>
+      <class name="_1743B.TC11"/>
+      <class name="_1743B.TC22"/>
+      <class name="_1743B.TC10"/>
+      <class name="_1743B.TC21"/>
+      <class name="_1743B.TC13"/>
+      <class name="_1743B.TC24"/>
+      <class name="_1743B.TC12"/>
+      <class name="_1743B.TC23"/>
+      <class name="_1743B.TC15"/>
+      <class name="_1743B.TC26"/>
+      <class name="_1743B.TC14"/>
+      <class name="_1743B.TC25"/>
+      <class name="_1743B.TC17"/>
+      <class name="_1743B.TC16"/>
+      <class name="_1743B.TC27"/>
+    </classes>
+  </test> <!-- _1743BTest -->
+</suite> <!-- _1743BSuite -->

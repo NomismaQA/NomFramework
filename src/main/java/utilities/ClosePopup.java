@@ -24,7 +24,7 @@ public class ClosePopup extends BasePage
 	        {
 	            Thread.sleep(5000);
 	           // WebElement ele = driver.findElement(By.xpath("//*[@id=\"b9a519c5-eefc-9ffc-8726-14a814341197\"]/div"));
-	            WebElement ele = driver.findElement(By.xpath("//*[@id='cb6b4aa0-6bd7-41c3-bb8d-5a23c0dc4970']"));
+	            WebElement ele = driver.findElement(By.xpath("//*[@id='d55d6066-fd88-42cb-b3d6-4c159111bd6f']"));
 	          //*[@id="5b258dc2-c6ff-42aa-8c2b-754a39b6b7ae"]
 	          
 	            WebDriverWait wait = new WebDriverWait(driver, 180);
@@ -47,7 +47,7 @@ public class ClosePopup extends BasePage
 	        {
 	            Thread.sleep(5000);
 	           // WebElement ele = driver.findElement(By.xpath("//*[@id=\"b9a519c5-eefc-9ffc-8726-14a814341197\"]/div"));
-	            WebElement ele = driver.findElement(By.xpath("//*[@id='11394c15-ac28-4325-a3b7-d45ca1f10148']"));
+	            WebElement ele = driver.findElement(By.xpath("//*[@id='d55d6066-fd88-42cb-b3d6-4c159111bd6f']"));
 	        
 	            WebDriverWait wait = new WebDriverWait(driver, 180);
 	            wait.until(ExpectedConditions.visibilityOf(ele));

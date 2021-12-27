@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BasePage {
-    protected WebDriver m_Driver;
+    protected  WebDriver m_Driver;
 
     protected WebDriverWait jsWait;
 

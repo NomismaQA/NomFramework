@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.ClosePopup;
+import utilities.TakeScreenshot;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -64,9 +66,10 @@ public class Agent_Payroll_DSB extends BasePage
      
 	/**
  	 * Click  Payroll 
+	 * @throws InterruptedException 
      * @name Click  Payroll 
      */
-	public void Click__Payroll_()
+	public void Click__Payroll_() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(_Payroll_Elem);
@@ -80,6 +83,8 @@ public class Agent_Payroll_DSB extends BasePage
         }
 
 		elem.click();
+		
+		ClosePopup.ValidateAndPopUp(m_Driver);
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click__Payroll_");
@@ -215,5 +220,45 @@ public class Agent_Payroll_DSB extends BasePage
 		ExtentReportManager.passStep(m_Driver, "Click_Submit_Pension_Contribution");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Submit_Pension_Contribution");
+	}
+
+
+	public void popUpScreenshot() throws Exception {
+		// TODO Auto-generated method stub
+		
+		Thread.sleep(2000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "runPayrollPopup on AgentDsb");
+		
+	}
+
+
+	public void RunpayrollSC() throws Exception {
+		// TODO Auto-generated method stub
+		
+		Thread.sleep(2000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "runPayrollTable on AgentDsb");
+		
+	}
+
+
+	public void RunpayrollSCAlphabetPriority() throws Exception {
+		// TODO Auto-generated method stub
+		
+		Thread.sleep(2000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "runPayrollTable Alphabetic view");
+		
+	}
+
+
+	public void getSCforAccountMangrClientList() throws Exception {
+		// TODO Auto-generated method stub
+		
+Thread.sleep(2000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "runPayrollTable Alphabetic view");
+		
 	}
 }

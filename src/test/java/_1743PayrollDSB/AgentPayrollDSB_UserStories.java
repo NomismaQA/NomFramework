@@ -23,7 +23,7 @@ public class AgentPayrollDSB_UserStories extends TestBase
     
     @Test  (groups= {"Agent_Payroll DSB","Agent_Payroll DSB - User Stories"})
     @TestModellerPath(guid = "588b72b9-d5d2-4e34-8bbe-53474d348a75")
-    public void ClickPayrollClickDashboardClickRunPayrollClickSubmitP11DClickSubmitPensionContributionClickSub()
+    public void ClickPayrollClickDashboardClickRunPayrollClickSubmitP11DClickSubmitPensionContributionClickSub() throws InterruptedException
     {
         
     	_1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashboard.Agent_Payroll_DSB(driver);

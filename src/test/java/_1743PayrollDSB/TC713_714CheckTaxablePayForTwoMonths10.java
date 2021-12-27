@@ -132,7 +132,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     
     _CreateClient.Click_Create_Payroll_Profile();
     
-    _CreateClient.Click__Save_();
+ //   _CreateClient.Click__Save_();
     
 
 //pages.OpenClient _OpenClient = new pages.OpenClient(driver);
@@ -144,55 +144,55 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
 //    _OpenClient.AssertUrl();
     
 
-    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
-    _OpenClient.Click_ClientsClick();
-    
-
-    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-    _OpenClient.Enter_EnterClientName(data[4]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-    _OpenClient.Click_ClickSearch();
-    
-
-    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-    _OpenClient.Click_ClickClient();
-    
-    
-    verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
-//  TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
-//  _verifyClosePayeErrorMessage.GoToUrl();
+//    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
+//    _OpenClient.Click_ClientsClick();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
+//    _OpenClient.Enter_EnterClientName(data[4]);
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
+//    _OpenClient.Click_ClickSearch();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
+//    _OpenClient.Click_ClickClient();
+//    
+//    
+//    verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
+////  TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
+////  _verifyClosePayeErrorMessage.GoToUrl();
+////  
+////
+////  TestModellerLogger.SetLastNodeGuid("c9b025ad-2025-4174-9800-7912c22ab683");
+////  _verifyClosePayeErrorMessage.AssertUrl();
 //  
 //
-//  TestModellerLogger.SetLastNodeGuid("c9b025ad-2025-4174-9800-7912c22ab683");
-//  _verifyClosePayeErrorMessage.AssertUrl();
-  
-
-  TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
-  _verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
-  
-  
-  VerifyEmailsData.PayrollDsbEmailBody _PayrollDsbEmailBody = new VerifyEmailsData.PayrollDsbEmailBody(driver);
-  
-	TestModellerLogger.SetLastNodeGuid("76227d22-84e4-4fc9-9614-7542782d7a70");
-  _PayrollDsbEmailBody.Click_clickRunPayroll1();
-  
-
-  TestModellerLogger.SetLastNodeGuid("1a18737c-e1ab-42ed-920e-0a4c22ddc751");
-  _PayrollDsbEmailBody.Click_RunPayroll2();
-  
-  
-
-  Company_Director.TC7_CD_Alt_JoiningBetweenTxYr _CDBeforeTxYrLow = new Company_Director.TC7_CD_Alt_JoiningBetweenTxYr(driver);
-  
-  TestModellerLogger.SetLastNodeGuid("284ba20d-daea-4d15-a713-71b70abf0bc8");
-  _CDBeforeTxYrLow.Click_gotoFiling_Management();
-  
-  _CDBeforeTxYrLow.Enter_getXMLData1();
-  
-  _CDBeforeTxYrLow.verifyTaxablegross();
-  
+//  TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
+//  _verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
+//  
+//  
+//  VerifyEmailsData.PayrollDsbEmailBody _PayrollDsbEmailBody = new VerifyEmailsData.PayrollDsbEmailBody(driver);
+//  
+//	TestModellerLogger.SetLastNodeGuid("76227d22-84e4-4fc9-9614-7542782d7a70");
+//  _PayrollDsbEmailBody.Click_clickRunPayroll1();
+//  
+//
+//  TestModellerLogger.SetLastNodeGuid("1a18737c-e1ab-42ed-920e-0a4c22ddc751");
+//  _PayrollDsbEmailBody.Click_RunPayroll2();
+//  
+//  
+//
+//  Company_Director.TC7_CD_Alt_JoiningBetweenTxYr _CDBeforeTxYrLow = new Company_Director.TC7_CD_Alt_JoiningBetweenTxYr(driver);
+//  
+//  TestModellerLogger.SetLastNodeGuid("284ba20d-daea-4d15-a713-71b70abf0bc8");
+//  _CDBeforeTxYrLow.Click_gotoFiling_Management();
+//  
+//  _CDBeforeTxYrLow.Enter_getXMLData1();
+//  
+//  _CDBeforeTxYrLow.verifyTaxablegross();
+//  
   
 //  TestModellerLogger.SetLastNodeGuid("284ba20d-daea-4d15-a713-71b70abf0bc8");
 //  _CDBeforeTxYrLow.Click_gotoFiling_Management();
@@ -284,7 +284,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     
     _CreateClient.Click_Create_Payroll_Profile();
     
-    _CreateClient.Click__Save_();
+ //   _CreateClient.Click__Save_();
     
     
  //  	_1939_page.AgentsSetting _AgentsSetting = new _1939_page.AgentsSetting(driver);
@@ -325,40 +325,40 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 //    _OpenClient.AssertUrl();
     
 
-    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
-    _OpenClient.Click_ClientsClick();
-    
-
-    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-    _OpenClient.Enter_EnterClientName(data[4]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-    _OpenClient.Click_ClickSearch();
-    
-
-    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-    _OpenClient.Click_ClickClient();
-    
-    
-    verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
-//  TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
-//  _verifyClosePayeErrorMessage.GoToUrl();
+//    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
+//    _OpenClient.Click_ClientsClick();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
+//    _OpenClient.Enter_EnterClientName(data[4]);
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
+//    _OpenClient.Click_ClickSearch();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
+//    _OpenClient.Click_ClickClient();
+//    
+//    
+//    verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
+////  TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
+////  _verifyClosePayeErrorMessage.GoToUrl();
+////  
+////
+////  TestModellerLogger.SetLastNodeGuid("c9b025ad-2025-4174-9800-7912c22ab683");
+////  _verifyClosePayeErrorMessage.AssertUrl();
 //  
 //
-//  TestModellerLogger.SetLastNodeGuid("c9b025ad-2025-4174-9800-7912c22ab683");
-//  _verifyClosePayeErrorMessage.AssertUrl();
-  
-
-  TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
-  _verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
-  
-  
-  PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-  TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-  _PayrollDoUndo.Click_Undo_Last_Payroll_();
+//  TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
+//  _verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
+//  
+//  
+//  PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+//
+//
+//  TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+//  _PayrollDoUndo.Click_Undo_Last_Payroll_();
   
     }
   

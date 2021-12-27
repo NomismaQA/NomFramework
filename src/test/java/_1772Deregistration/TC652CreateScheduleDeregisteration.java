@@ -35,7 +35,7 @@ public class TC652CreateScheduleDeregisteration extends TestBase
         Sheet="Sheet3";
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
     	
-        pages.loginpage3 _loginpage = new pages.loginpage3(driver);
+        pages.loginpage3B _loginpage = new pages.loginpage3B(driver);
     TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
     _loginpage.GoToUrl();
     

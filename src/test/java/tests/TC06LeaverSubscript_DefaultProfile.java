@@ -140,6 +140,19 @@ pages.leavertesting _leavertesting = new pages.leavertesting(driver);
     TestModellerLogger.SetLastNodeGuid("daf8d06f-5e14-4f77-b50b-5f0ece9142f1");
     _leavertesting.Click_gotoFilingManagement();
     
+    
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
+    
+    
+    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+    
 
     }
 /*
