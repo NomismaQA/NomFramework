@@ -23,7 +23,7 @@ public class AgentDsbPayroll_UserStories extends TestBase
     
     @Test  (groups= {"AgentDsbPayroll","AgentDsbPayroll - User Stories"})
     @TestModellerPath(guid = "5e3e7871-b963-4099-83e3-7c275d4c8bd7")
-    public void AssertUrlGoToUrlEnterSearchClientClickAutoPayrollClickManualPayrollClickPensionClickP11DClic()
+    public void AssertUrlGoToUrlEnterSearchClientClickAutoPayrollClickManualPayrollClickPensionClickP11DClic() throws InterruptedException
     {
         
     	_1743Agent_Dashboard.AgentDsbPayroll _AgentDsbPayroll = new _1743Agent_Dashboard.AgentDsbPayroll(driver);

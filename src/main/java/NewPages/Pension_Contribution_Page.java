@@ -290,6 +290,69 @@ public class Pension_Contribution_Page extends BasePage
 	}
 
 
+	public void SelectAccountManager(String mngr) throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_ddPrimaryUser']"));
+		
+		Select dropdown = new Select(elem);
+
+ 		dropdown.selectByVisibleText(mngr);
+ 		
+ 		Thread.sleep(1000);
+ 		
+ 		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_btnSearch']")).click();
+ 		
+ 		Thread.sleep(2000);
+ 		
+ 		TakeScreenshot.takeScreenshot(m_Driver, "RTI By Account Manager");
+		
+	}
+
+
+	public void verifyPendingRTICount() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[2]/div/table/tbody/tr/td[1]/b"));
+		
+		jsExec.executeScript("arguments[0].scrollIntoView();", elem);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "RTI pending Count");
+		
+		System.out.println(elem.getText());
+		
+	}
+
+
+	public void submitRTI(String reason) throws InterruptedException 
+	{
+		
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_cbSelect']")).click();
+		
+		jsExec.executeScript("window.scrollBy(0,document.body.scrollHeight)", "");
+		
+		Thread.sleep(1000);
+		
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_txtNotes']")).sendKeys("Test");
+		
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_ddlSubmitReason']"));
+		
+		Select dropdown = new Select(elem);
+
+ 		dropdown.selectByVisibleText(reason);
+ 		
+ 		Thread.sleep(1000);
+ 		
+ 		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_btnDoNotSubmit']")).click();
+ 		
+ 		Thread.sleep(5000);
+ 		
+ 	
+		
+	}
+
+
 	
 
 	

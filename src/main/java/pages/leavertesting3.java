@@ -146,10 +146,12 @@ int tableSize=m_Driver.findElements(By.xpath("//*[@id='ctl00_ctl00_ParentContent
 			m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_txtLeavingDate']")).sendKeys(Keys.BACK_SPACE);
 			}
 			m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_txtLeavingDate']")).sendKeys("24/05/2020");
+			m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_txtLeavingDate']")).sendKeys(Keys.ENTER);
+			
 			
 			System.out.println("enterdate");
 			//m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cphFooter_btnSave']")).click();
-			jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cphFooter_btnSave']")));
+			jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_btnSave']")));
 //			elem=m_Driver.findElement(By.xpath("//*[@id='LeaverPopUpClose']"));
 //			Actions action= new Actions(m_Driver);
 //			action.contextClick(elem).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
@@ -158,7 +160,7 @@ int tableSize=m_Driver.findElements(By.xpath("//*[@id='ctl00_ctl00_ParentContent
 			//jsExec.executeScript("arguments[0].click();", 
 			System.out.println("Hiiii");
 			Thread.sleep(1000);
-					m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cphFooter_btnCancel']")).click();
+					m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_btnCancel']")).click();
 			
 			
 			

@@ -9,21 +9,72 @@
 
 
 
-		<test name= "TC711_712CheckTaxablePayForTwoMonths10" enabled="true">  
+		<test name= "TC184sendEmailduringPayrolltoEMP" enabled="true">  
   		 
  			<classes> 
-    				<class name= "_1743PayrollDSB.TC711_712CheckTaxablePayForTwoMonths10"/>
+    				<class name= "_1957PagingandSorting.TC184sendEmailduringPayrolltoEMP"/>
    			</classes> 		
   			
- 	</test>
+ 		</test>
+ 		
+ 		
+ 		<test name= "TC264summarywhenSMP_Mnthly" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "verifySummaryReportsData.TC264summarywhenSMP_Mnthly"/>
+   			</classes> 		
+  			
+ 		</test>
+ 		
+ 		
+ 		<test name= "TC453_454EmailLogMainContact" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "_2087EmailLog.TC453_454EmailLogMainContact"/>
+   			</classes> 		
+  			
+ 		</test>
+ 		
+ 		
+ 		<test name= "TC641PriorDateOfDeregisteration" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "_1772Deregistration.TC641PriorDateOfDeregisteration"/>
+   			</classes> 		
+  			
+ 		</test>
  	
- 	<test name= "TC792_808AgentRunPayrollPDF_EE" enabled="true">  
+ 	<test  name="_1995Test">
+   	 <classes>
+      <class name="_1995subContractorPayReportTest.TC202subcontractorPayReportDump"/>
+      <class name="_1995subContractorPayReportTest.TC201subcontractorPayReportNoPay"/>
+      <class name="_1995subContractorPayReportTest.TC203subcontractorPayReportNoPayDump"/>
+      <class name="_1995subContractorPayReportTest.TC200subcontractorPayReport"/>
+   	 </classes>
+ 	 </test> <!-- _1995Test -->
+ 	 
+ 	 
+ 	 <test name= "TC501VerifySubContrAdded" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "_1744CISDSBTest.TC501VerifySubContrAdded"/>
+   			</classes> 		
+  			
+ 		</test>
+ 		
+ 		
+ 		 		
+ 		
+ 		<test name= "TC792_808AgentRunPayrollPDF_EE" enabled="true">  
   		 
  			<classes> 
     				<class name= "_1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE"/>
    			</classes> 		
   			
- 	</test>
-  
+ 		</test>
+ 		
+ 		
+ 		
+ 	
  		
   	</suite>

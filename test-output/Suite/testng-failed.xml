@@ -5,19 +5,51 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="_1743CTest(failed)" verbose="10">
+  <test thread-count="5" name="T88TC6CDJoiningBeforeTxYr_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="_1743PayrollDSB.TC750_755CheckPention_InprogressClient">
+      <class name="Company_Director_Tests.T88TC6CDJoiningBeforeTxYr_DefaultProfile">
         <methods>
           <include name="closeReporter"/>
-          <include name="Inprogress_1Month"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickclickP11ClickgetLELAmountClickgetPTAmountClickgetUELAmou"/>
           <include name="closerDriver"/>
           <include name="setupReporter"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1743PayrollDSB.TC750_755CheckPention_InprogressClient -->
-      <class name="_1743PayrollDSB.TC711_712CheckTaxablePayForTwoMonths10">
+      </class> <!-- Company_Director_Tests.T88TC6CDJoiningBeforeTxYr_DefaultProfile -->
+    </classes>
+  </test> <!-- T88TC6CDJoiningBeforeTxYr_DefaultProfile(failed) -->
+  <test thread-count="5" name="T90TC6CDJoiningBeforeTxYr_DefaultProfile3(failed)" verbose="10">
+    <classes>
+      <class name="Company_Director_Tests.T90TC6CDJoiningBeforeTxYr_DefaultProfile3">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickclickP11ClickgetLELAmountClickgetPTAmountClickgetUELAmou"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- Company_Director_Tests.T90TC6CDJoiningBeforeTxYr_DefaultProfile3 -->
+    </classes>
+  </test> <!-- T90TC6CDJoiningBeforeTxYr_DefaultProfile3(failed) -->
+  <test thread-count="5" name="TC03WrongPayeCloseSubscript_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.TC03WrongPayeCloseSubscript_DefaultProfile">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.TC03WrongPayeCloseSubscript_DefaultProfile -->
+    </classes>
+  </test> <!-- TC03WrongPayeCloseSubscript_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC04ClosePayeWithoutRunPayrollSubscript(failed)" verbose="10">
+    <classes>
+      <class name="tests.TC04ClosePayeWithoutRunPayrollSubscript">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
@@ -26,41 +58,1159 @@
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1743PayrollDSB.TC711_712CheckTaxablePayForTwoMonths10 -->
-      <class name="_1743PayrollDSB.TC780_785CheckPension_Overdue">
-        <methods>
-          <include name="closeReporter"/>
-          <include name="closerDriver"/>
-          <include name="setupReporter"/>
-          <include name="Notstarted1Month"/>
-          <include name="allocateData"/>
-          <include name="initDriver"/>
-        </methods>
-      </class> <!-- _1743PayrollDSB.TC780_785CheckPension_Overdue -->
+      </class> <!-- tests.TC04ClosePayeWithoutRunPayrollSubscript -->
     </classes>
-  </test> <!-- _1743CTest(failed) -->
-  <test thread-count="5" name="_1748Test(failed)" verbose="10">
+  </test> <!-- TC04ClosePayeWithoutRunPayrollSubscript(failed) -->
+  <test thread-count="5" name="TC75VCPension_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="_1748RunPayrollfromAgent.TC726_731CheckPayroll_OnHoldClient1">
+      <class name="Volentry_Pension.TC75VCPension_DefaultProfile">
         <methods>
           <include name="closeReporter"/>
           <include name="closerDriver"/>
-          <include name="setupReporter"/>
-          <include name="OnHold_6plusMonth"/>
-          <include name="allocateData"/>
-          <include name="initDriver"/>
-        </methods>
-      </class> <!-- _1748RunPayrollfromAgent.TC726_731CheckPayroll_OnHoldClient1 -->
-      <class name="_1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE">
-        <methods>
-          <include name="closeReporter"/>
-          <include name="closerDriver"/>
-          <include name="runPayrollPopupNoRTI"/>
+          <include name="GoToUrlAssertUrlClickgotoReportsClickgetEEPensionClickgetERpensionClickgotoPensionDashboardCl"/>
           <include name="setupReporter"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE -->
+      </class> <!-- Volentry_Pension.TC75VCPension_DefaultProfile -->
     </classes>
-  </test> <!-- _1748Test(failed) -->
+  </test> <!-- TC75VCPension_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC10_AutoRunPayrollBackDate(failed)" verbose="10">
+    <classes>
+      <class name="_1939_tests.TC10_AutoRunPayrollBackDate">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1939_tests.TC10_AutoRunPayrollBackDate -->
+    </classes>
+  </test> <!-- TC10_AutoRunPayrollBackDate(failed) -->
+  <test thread-count="5" name="TC327_328_1956LeaveNegativBalance(failed)" verbose="10">
+    <classes>
+      <class name="_1956Test.TC327_328_1956LeaveNegativBalance">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive1"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive2"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1956Test.TC327_328_1956LeaveNegativBalance -->
+    </classes>
+  </test> <!-- TC327_328_1956LeaveNegativBalance(failed) -->
+  <test thread-count="5" name="TC329and334_1930CummulativeDirector(failed)" verbose="10">
+    <classes>
+      <class name="_1930.TC329and334_1930CummulativeDirector">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1930.TC329and334_1930CummulativeDirector -->
+    </classes>
+  </test> <!-- TC329and334_1930CummulativeDirector(failed) -->
+  <test thread-count="5" name="TC335_337_1930MidYrDirector(failed)" verbose="10">
+    <classes>
+      <class name="_1930.TC335_337_1930MidYrDirector">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1930.TC335_337_1930MidYrDirector -->
+    </classes>
+  </test> <!-- TC335_337_1930MidYrDirector(failed) -->
+  <test thread-count="5" name="TC338_340_1930AlternativeMidYrDirector(failed)" verbose="10">
+    <classes>
+      <class name="_1930.TC338_340_1930AlternativeMidYrDirector">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1930.TC338_340_1930AlternativeMidYrDirector -->
+    </classes>
+  </test> <!-- TC338_340_1930AlternativeMidYrDirector(failed) -->
+  <test thread-count="5" name="TC341_343_1930DirPaidTwoMonthonly(failed)" verbose="10">
+    <classes>
+      <class name="_1930.TC341_343_1930DirPaidTwoMonthonly">
+        <methods>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1930.TC341_343_1930DirPaidTwoMonthonly -->
+    </classes>
+  </test> <!-- TC341_343_1930DirPaidTwoMonthonly(failed) -->
+  <test thread-count="5" name="TC344_346_1930DirPaidTwoMonthonly(failed)" verbose="10">
+    <classes>
+      <class name="_1930.TC344_346_1930DirPaidTwoMonthonly">
+        <methods>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1930.TC344_346_1930DirPaidTwoMonthonly -->
+    </classes>
+  </test> <!-- TC344_346_1930DirPaidTwoMonthonly(failed) -->
+  <test thread-count="5" name="TC347_349_1912TC01(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC347_349_1912TC01">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC347_349_1912TC01 -->
+    </classes>
+  </test> <!-- TC347_349_1912TC01(failed) -->
+  <test thread-count="5" name="TC350_352_1912DirSalFiveMonth(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC350_352_1912DirSalFiveMonth">
+        <methods>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC350_352_1912DirSalFiveMonth -->
+    </classes>
+  </test> <!-- TC350_352_1912DirSalFiveMonth(failed) -->
+  <test thread-count="5" name="TC353_355_1912DirSalNotFixed(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC353_355_1912DirSalNotFixed">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC353_355_1912DirSalNotFixed -->
+    </classes>
+  </test> <!-- TC353_355_1912DirSalNotFixed(failed) -->
+  <test thread-count="5" name="TC356_358_1912Dir3MonthSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC356_358_1912Dir3MonthSalary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC356_358_1912Dir3MonthSalary -->
+    </classes>
+  </test> <!-- TC356_358_1912Dir3MonthSalary(failed) -->
+  <test thread-count="5" name="TC359_361_1912DirFirst2MonthSalaryandlast(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC359_361_1912DirFirst2MonthSalaryandlast">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC359_361_1912DirFirst2MonthSalaryandlast -->
+    </classes>
+  </test> <!-- TC359_361_1912DirFirst2MonthSalaryandlast(failed) -->
+  <test thread-count="5" name="TC362_364_1912FirstAndLastMonthSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC362_364_1912FirstAndLastMonthSalary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC362_364_1912FirstAndLastMonthSalary -->
+    </classes>
+  </test> <!-- TC362_364_1912FirstAndLastMonthSalary(failed) -->
+  <test thread-count="5" name="TC365_367_1912DirPaymentNotFixed(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC365_367_1912DirPaymentNotFixed">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC365_367_1912DirPaymentNotFixed -->
+    </classes>
+  </test> <!-- TC365_367_1912DirPaymentNotFixed(failed) -->
+  <test thread-count="5" name="TC368_370_1912DirSalinOneMonth(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC368_370_1912DirSalinOneMonth">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC368_370_1912DirSalinOneMonth -->
+    </classes>
+  </test> <!-- TC368_370_1912DirSalinOneMonth(failed) -->
+  <test thread-count="5" name="TC371_373_1912DirMidYrJoin(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC371_373_1912DirMidYrJoin">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC371_373_1912DirMidYrJoin -->
+    </classes>
+  </test> <!-- TC371_373_1912DirMidYrJoin(failed) -->
+  <test thread-count="5" name="TC374_376_1912DirLeaveDuringTxYr(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC374_376_1912DirLeaveDuringTxYr">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC374_376_1912DirLeaveDuringTxYr -->
+    </classes>
+  </test> <!-- TC374_376_1912DirLeaveDuringTxYr(failed) -->
+  <test thread-count="5" name="TC377_382_1912TwoDir(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC377_382_1912TwoDir">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc4"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc5"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc6"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC377_382_1912TwoDir -->
+    </classes>
+  </test> <!-- TC377_382_1912TwoDir(failed) -->
+  <test thread-count="5" name="TC383_385_1912JoiAndLeaveSameYr(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC383_385_1912JoiAndLeaveSameYr">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC383_385_1912JoiAndLeaveSameYr -->
+    </classes>
+  </test> <!-- TC383_385_1912JoiAndLeaveSameYr(failed) -->
+  <test thread-count="5" name="TC386_388_1912MiddleFPSWithHighSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC386_388_1912MiddleFPSWithHighSalary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC386_388_1912MiddleFPSWithHighSalary -->
+    </classes>
+  </test> <!-- TC386_388_1912MiddleFPSWithHighSalary(failed) -->
+  <test thread-count="5" name="TC389_391_1912MiddleFPSWithLowSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC389_391_1912MiddleFPSWithLowSalary">
+        <methods>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC389_391_1912MiddleFPSWithLowSalary -->
+    </classes>
+  </test> <!-- TC389_391_1912MiddleFPSWithLowSalary(failed) -->
+  <test thread-count="5" name="TC392_394_1912WeeklyHighSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC392_394_1912WeeklyHighSalary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC392_394_1912WeeklyHighSalary -->
+    </classes>
+  </test> <!-- TC392_394_1912WeeklyHighSalary(failed) -->
+  <test thread-count="5" name="TC395_397_1912WeeklyowSalary(failed)" verbose="10">
+    <classes>
+      <class name="_1912.TC395_397_1912WeeklyowSalary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc2"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc3"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1912.TC395_397_1912WeeklyowSalary -->
+    </classes>
+  </test> <!-- TC395_397_1912WeeklyowSalary(failed) -->
+  <test thread-count="5" name="TC398_401PaymentofMonthwhen5(failed)" verbose="10">
+    <classes>
+      <class name="_2078Test.TC398_401PaymentofMonthwhen5">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2078Test.TC398_401PaymentofMonthwhen5 -->
+    </classes>
+  </test> <!-- TC398_401PaymentofMonthwhen5(failed) -->
+  <test thread-count="5" name="TC402_405PaymentofMonthwhen4(failed)" verbose="10">
+    <classes>
+      <class name="_2078Test.TC402_405PaymentofMonthwhen4">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2078Test.TC402_405PaymentofMonthwhen4 -->
+    </classes>
+  </test> <!-- TC402_405PaymentofMonthwhen4(failed) -->
+  <test thread-count="5" name="TC410_413PaymentofMonthwhen2(failed)" verbose="10">
+    <classes>
+      <class name="_2078Test.TC410_413PaymentofMonthwhen2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2078Test.TC410_413PaymentofMonthwhen2 -->
+    </classes>
+  </test> <!-- TC410_413PaymentofMonthwhen2(failed) -->
+  <test thread-count="5" name="TC418_421PaymentofMonthwhenLastDayOfMonth(failed)" verbose="10">
+    <classes>
+      <class name="_2078Test.TC418_421PaymentofMonthwhenLastDayOfMonth">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2078Test.TC418_421PaymentofMonthwhenLastDayOfMonth -->
+    </classes>
+  </test> <!-- TC418_421PaymentofMonthwhenLastDayOfMonth(failed) -->
+  <test thread-count="5" name="TC437_438TaxCode_D0(failed)" verbose="10">
+    <classes>
+      <class name="TaxCode.TC437_438TaxCode_D0">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc4"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TaxCode.TC437_438TaxCode_D0 -->
+    </classes>
+  </test> <!-- TC437_438TaxCode_D0(failed) -->
+  <test thread-count="5" name="TC439_440TaxCode_CD0(failed)" verbose="10">
+    <classes>
+      <class name="TaxCode.TC439_440TaxCode_CD0">
+        <methods>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc4"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TaxCode.TC439_440TaxCode_CD0 -->
+    </classes>
+  </test> <!-- TC439_440TaxCode_CD0(failed) -->
+  <test thread-count="5" name="TC441_442TaxCode_D1(failed)" verbose="10">
+    <classes>
+      <class name="TaxCode.TC441_442TaxCode_D1">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc4"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TaxCode.TC441_442TaxCode_D1 -->
+    </classes>
+  </test> <!-- TC441_442TaxCode_D1(failed) -->
+  <test thread-count="5" name="TC443_444TaxCode_CD1(failed)" verbose="10">
+    <classes>
+      <class name="TaxCode.TC443_444TaxCode_CD1">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickc4"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TaxCode.TC443_444TaxCode_CD1 -->
+    </classes>
+  </test> <!-- TC443_444TaxCode_CD1(failed) -->
+  <test thread-count="5" name="TC445_448EmpAddDel(failed)" verbose="10">
+    <classes>
+      <class name="DeleteAddEmpTest.TC445_448EmpAddDel">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickRunPayroll1ClickRunPayroll2ClickgetSuccessMsgClickUndoLastPayrollClickcl"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- DeleteAddEmpTest.TC445_448EmpAddDel -->
+    </classes>
+  </test> <!-- TC445_448EmpAddDel(failed) -->
+  <test thread-count="5" name="TC453_454EmailLogMainContact(failed)" verbose="10">
+    <classes>
+      <class name="_2087EmailLog.TC453_454EmailLogMainContact">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2087EmailLog.TC453_454EmailLogMainContact -->
+    </classes>
+  </test> <!-- TC453_454EmailLogMainContact(failed) -->
+  <test thread-count="5" name="TC455_456EmailLogToEmployee(failed)" verbose="10">
+    <classes>
+      <class name="_2087EmailLog.TC455_456EmailLogToEmployee">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2087EmailLog.TC455_456EmailLogToEmployee -->
+    </classes>
+  </test> <!-- TC455_456EmailLogToEmployee(failed) -->
+  <test thread-count="5" name="TC459_460EmailLogFromAgentPage(failed)" verbose="10">
+    <classes>
+      <class name="_2087EmailLog.TC459_460EmailLogFromAgentPage">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard1"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2087EmailLog.TC459_460EmailLogFromAgentPage -->
+    </classes>
+  </test> <!-- TC459_460EmailLogFromAgentPage(failed) -->
+  <test thread-count="5" name="TC461_462EmailLogFromP60(failed)" verbose="10">
+    <classes>
+      <class name="_2087EmailLog.TC461_462EmailLogFromP60">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2087EmailLog.TC461_462EmailLogFromP60 -->
+    </classes>
+  </test> <!-- TC461_462EmailLogFromP60(failed) -->
+  <test thread-count="5" name="TC488DueSubmission(failed)" verbose="10">
+    <classes>
+      <class name="_1744CISDSBTest.TC488DueSubmission">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1744CISDSBTest.TC488DueSubmission -->
+    </classes>
+  </test> <!-- TC488DueSubmission(failed) -->
+  <test thread-count="5" name="TC489OverdueReturn(failed)" verbose="10">
+    <classes>
+      <class name="_1744CISDSBTest.TC489OverdueReturn">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1744CISDSBTest.TC489OverdueReturn -->
+    </classes>
+  </test> <!-- TC489OverdueReturn(failed) -->
+  <test thread-count="5" name="TC490UpcomingReturn(failed)" verbose="10">
+    <classes>
+      <class name="_1744CISDSBTest.TC490UpcomingReturn">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1744CISDSBTest.TC490UpcomingReturn -->
+    </classes>
+  </test> <!-- TC490UpcomingReturn(failed) -->
+  <test thread-count="5" name="TC516_2068NomismaPayroll(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC516_2068NomismaPayroll">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC516_2068NomismaPayroll -->
+    </classes>
+  </test> <!-- TC516_2068NomismaPayroll(failed) -->
+  <test thread-count="5" name="TC517PayrollSummary(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC517PayrollSummary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC517PayrollSummary -->
+    </classes>
+  </test> <!-- TC517PayrollSummary(failed) -->
+  <test thread-count="5" name="TC518SummarywhenNoSER(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC518SummarywhenNoSER">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC518SummarywhenNoSER -->
+    </classes>
+  </test> <!-- TC518SummarywhenNoSER(failed) -->
+  <test thread-count="5" name="TC520QtrPayeScheme(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC520QtrPayeScheme">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC520QtrPayeScheme -->
+    </classes>
+  </test> <!-- TC520QtrPayeScheme(failed) -->
+  <test thread-count="5" name="TC521MidYrQtr(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC521MidYrQtr">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC521MidYrQtr -->
+    </classes>
+  </test> <!-- TC521MidYrQtr(failed) -->
+  <test thread-count="5" name="TC522MidYrQTRWhenPaymentMngmnt(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC522MidYrQTRWhenPaymentMngmnt">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC522MidYrQTRWhenPaymentMngmnt -->
+    </classes>
+  </test> <!-- TC522MidYrQTRWhenPaymentMngmnt(failed) -->
+  <test thread-count="5" name="TC523PaymentMangmntSumary(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC523PaymentMangmntSumary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC523PaymentMangmntSumary -->
+    </classes>
+  </test> <!-- TC523PaymentMangmntSumary(failed) -->
+  <test thread-count="5" name="TC524EmpPayslip(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC524EmpPayslip">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC524EmpPayslip -->
+    </classes>
+  </test> <!-- TC524EmpPayslip(failed) -->
+  <test thread-count="5" name="TC525EmpPayslipWhenQtr(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC525EmpPayslipWhenQtr">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC525EmpPayslipWhenQtr -->
+    </classes>
+  </test> <!-- TC525EmpPayslipWhenQtr(failed) -->
+  <test thread-count="5" name="TC526EmpSlrywhenMonthly(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC526EmpSlrywhenMonthly">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC526EmpSlrywhenMonthly -->
+    </classes>
+  </test> <!-- TC526EmpSlrywhenMonthly(failed) -->
+  <test thread-count="5" name="TC538Taxpayment(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC538Taxpayment">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC538Taxpayment -->
+    </classes>
+  </test> <!-- TC538Taxpayment(failed) -->
+  <test thread-count="5" name="TC539TaxDeductionWhenCD(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC539TaxDeductionWhenCD">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC539TaxDeductionWhenCD -->
+    </classes>
+  </test> <!-- TC539TaxDeductionWhenCD(failed) -->
+  <test thread-count="5" name="TC540TaxWhenCD1(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC540TaxWhenCD1">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC540TaxWhenCD1 -->
+    </classes>
+  </test> <!-- TC540TaxWhenCD1(failed) -->
+  <test thread-count="5" name="TC541TaxWhen1250L(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC541TaxWhen1250L">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC541TaxWhen1250L -->
+    </classes>
+  </test> <!-- TC541TaxWhen1250L(failed) -->
+  <test thread-count="5" name="TC542TaxWhenC1CD(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC542TaxWhenC1CD">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC542TaxWhenC1CD -->
+    </classes>
+  </test> <!-- TC542TaxWhenC1CD(failed) -->
+  <test thread-count="5" name="TC543TaxwhenCD1(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC543TaxwhenCD1">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC543TaxwhenCD1 -->
+    </classes>
+  </test> <!-- TC543TaxwhenCD1(failed) -->
+  <test thread-count="5" name="TC544TaxWhenCD2(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC544TaxWhenCD2">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC544TaxWhenCD2 -->
+    </classes>
+  </test> <!-- TC544TaxWhenCD2(failed) -->
+  <test thread-count="5" name="TC531PayrollWhenCIS(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC531PayrollWhenCIS">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC531PayrollWhenCIS -->
+    </classes>
+  </test> <!-- TC531PayrollWhenCIS(failed) -->
+  <test thread-count="5" name="TC532PayrollWhenNoCIS(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC532PayrollWhenNoCIS">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC532PayrollWhenNoCIS -->
+    </classes>
+  </test> <!-- TC532PayrollWhenNoCIS(failed) -->
+  <test thread-count="5" name="TC537SummaryWhenNoPM(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC537SummaryWhenNoPM">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC537SummaryWhenNoPM -->
+    </classes>
+  </test> <!-- TC537SummaryWhenNoPM(failed) -->
+  <test thread-count="5" name="TC536SummaryWhenPM(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC536SummaryWhenPM">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC536SummaryWhenPM -->
+    </classes>
+  </test> <!-- TC536SummaryWhenPM(failed) -->
+  <test thread-count="5" name="TC533PayrollwhenPaymentmngmnt(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC533PayrollwhenPaymentmngmnt">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC533PayrollwhenPaymentmngmnt -->
+    </classes>
+  </test> <!-- TC533PayrollwhenPaymentmngmnt(failed) -->
+  <test thread-count="5" name="TC534SummarywhenCIS(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC534SummarywhenCIS">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC534SummarywhenCIS -->
+    </classes>
+  </test> <!-- TC534SummarywhenCIS(failed) -->
+  <test thread-count="5" name="TC535SummaryWhenNoCIS(failed)" verbose="10">
+    <classes>
+      <class name="_2068.TC535SummaryWhenNoCIS">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2068.TC535SummaryWhenNoCIS -->
+    </classes>
+  </test> <!-- TC535SummaryWhenNoCIS(failed) -->
+  <test thread-count="5" name="_1853Test(failed)" verbose="10">
+    <classes>
+      <class name="_1853Test.TC579NotToSubmitEmployeePayslip">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveSelectselectTaxYearsEnterEnterNotesPositiveSelectSubmitReasonClickNott"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1853Test.TC579NotToSubmitEmployeePayslip -->
+      <class name="_1853Test.TC580IndividualEmployeePayslip">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveSelectselectTaxYearsEnterEnterNotesPositiveSelectSubmitReasonClickNott"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1853Test.TC580IndividualEmployeePayslip -->
+      <class name="_1853Test.TC578NotToSubmit">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveSelectselectTaxYearsEnterEnterNotesPositiveSelectSubmitReasonClickNott"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1853Test.TC578NotToSubmit -->
+      <class name="_1853Test.TC581IndividualEmployeeP60">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveSelectselectTaxYearsEnterEnterNotesPositiveSelectSubmitReasonClickNott"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1853Test.TC581IndividualEmployeeP60 -->
+    </classes>
+  </test> <!-- _1853Test(failed) -->
+  <test thread-count="5" name="_2106Test(failed)" verbose="10">
+    <classes>
+      <class name="_2106AutoPayroll.TC608AutoPayrollAndNotOptForPaySlip">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2106AutoPayroll.TC608AutoPayrollAndNotOptForPaySlip -->
+      <class name="_2106AutoPayroll.TC609AutoPayrollAndPayslipToEmpwithNoSummary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2106AutoPayroll.TC609AutoPayrollAndPayslipToEmpwithNoSummary -->
+      <class name="_2106AutoPayroll.TC610AutoPayrollAndPayslipToEmpwithSummary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2106AutoPayroll.TC610AutoPayrollAndPayslipToEmpwithSummary -->
+    </classes>
+  </test> <!-- _2106Test(failed) -->
+  <test thread-count="5" name="_2128Test(failed)" verbose="10">
+    <classes>
+      <class name="_2128AutoPayProtection.TC620PDFProtectionwithEmployerSummaryEEMain">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC620PDFProtectionwithEmployerSummaryEEMain -->
+      <class name="_2128AutoPayProtection.TC617ZIPProtectionwithEmployerSummaryTomainContact">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC617ZIPProtectionwithEmployerSummaryTomainContact -->
+      <class name="_2128AutoPayProtection.TC616ZIPProtectionwithEmployerSummary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC616ZIPProtectionwithEmployerSummary -->
+      <class name="_2128AutoPayProtection.TC619PDFProtectionwithEmployerSummaryEE">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC619PDFProtectionwithEmployerSummaryEE -->
+      <class name="_2128AutoPayProtection.TC615ZIPProtection1">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC615ZIPProtection1 -->
+      <class name="_2128AutoPayProtection.TC618ZIPProtectionWhenNoERandPayslip">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC618ZIPProtectionWhenNoERandPayslip -->
+      <class name="_2128AutoPayProtection.TC625PDFProtectionTOZIPandthenNoProtectionwithEmployerSummaryEE">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC625PDFProtectionTOZIPandthenNoProtectionwithEmployerSummaryEE -->
+      <class name="_2128AutoPayProtection.TC624PDFProtectionTOZIPandthenPDFwithEmployerSummaryEE">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC624PDFProtectionTOZIPandthenPDFwithEmployerSummaryEE -->
+      <class name="_2128AutoPayProtection.TC621PDFProtectionwithEmployerSummaryOnly">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC621PDFProtectionwithEmployerSummaryOnly -->
+      <class name="_2128AutoPayProtection.TC622PDFProtectionNoPayslipNoSummary">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _2128AutoPayProtection.TC622PDFProtectionNoPayslipNoSummary -->
+    </classes>
+  </test> <!-- _2128Test(failed) -->
+  <test thread-count="5" name="_1772Test(failed)" verbose="10">
+    <classes>
+      <class name="_1772Deregistration.TC641PriorDateOfDeregisteration">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="setupReporter"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1772Deregistration.TC641PriorDateOfDeregisteration -->
+      <class name="_1772Deregistration.TC652CreateScheduleDeregisteration">
+        <methods>
+          <include name="closeReporter"/>
+          <include name="closerDriver"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
+          <include name="allocateData"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- _1772Deregistration.TC652CreateScheduleDeregisteration -->
+    </classes>
+  </test> <!-- _1772Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -119,7 +119,7 @@ pages.activateclient _activateclient = new pages.activateclient(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("a170b91d-0f36-482c-ac35-ca4009a43c7d");
-    _activateclient.Click_ClickIsActive();
+    _activateclient.Click_ClickIsActive(data[5]);
     
 
     TestModellerLogger.SetLastNodeGuid("77c1b262-32d1-4ad3-b234-6fdd49d0c45c");
@@ -127,19 +127,19 @@ pages.activateclient _activateclient = new pages.activateclient(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("16c3aae5-914a-4920-8782-aaf04dddafa7");
-    _activateclient.Enter_PayeRegDate(data[5]);
+    _activateclient.Enter_PayeRegDate(data[6]);
     
 
     TestModellerLogger.SetLastNodeGuid("49641995-e8db-4e04-b720-48a5eb30c817");
-    _activateclient.Enter_PayeRefNo1(data[6]);
+    _activateclient.Enter_PayeRefNo1(data[7]);
     
 
     TestModellerLogger.SetLastNodeGuid("9dd82b39-8500-492c-9036-14160c2cb23f");
-    _activateclient.Enter_PayeRefNo2(data[7]);
+    _activateclient.Enter_PayeRefNo2(data[8]);
     
 
     TestModellerLogger.SetLastNodeGuid("e3838f3e-3965-4915-a86d-1c1dd6c817dc");
-    _activateclient.Enter_AccountsOfcRef(data[8]);
+    _activateclient.Enter_AccountsOfcRef(data[9]);
     
 
     TestModellerLogger.SetLastNodeGuid("75fd8418-4929-49e4-8500-3638e509a0f4");
@@ -173,6 +173,20 @@ pages.VerifyCompanyStatus _VerifyCompanyStatus = new pages.VerifyCompanyStatus(d
 
     TestModellerLogger.SetLastNodeGuid("85f58615-313e-4d91-8c53-e063098593f2");
     _VerifyCompanyStatus.Click_EditCompanyClick();
+    
+    
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
+
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+
     
 
     }

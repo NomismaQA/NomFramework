@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE">
+      <class name="_1956Test.TC327_328_1956LeaveNegativBalance">
         <methods>
           <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive1"/>
           <include name="closerDriver"/>
-          <include name="runPayrollPopupNoRTI"/>
           <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive2"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1748RunPayrollfromAgent.TC792_808AgentRunPayrollPDF_EE -->
+      </class> <!-- _1956Test.TC327_328_1956LeaveNegativBalance -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -152,7 +152,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
   TestModellerLogger.SetLastNodeGuid("0bf3be1b-b00c-4d1e-a715-8a4e4ab4fdc8");
   _verifyClosePayeErrorMessageOOPS.Click_gotoPayrollDetails();
   
-  
+/*  
   _1939_page.TC02_AutoPayrollDate _PaymentMmgt = new _1939_page.TC02_AutoPayrollDate(driver);
 //  TestModellerLogger.SetLastNodeGuid("ef7cf453-0267-47db-8388-a31200eaa772");
 //  _PaymentMmgt.GoToUrl();
@@ -299,7 +299,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 //  _PaymentMmgt.Click_getmsg();
   
   
-  
+  */
 
 
     }

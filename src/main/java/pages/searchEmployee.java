@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.TakeScreenshot;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -31,7 +32,14 @@ public class searchEmployee extends BasePage
 
 	private By clickSearchElem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cPHFilter_btnSearch']");
 
-	private By clickonEmpNameElem = By.xpath("//A[contains(text(),'Sumit')]");
+	private By clickonEmpNameElem = By.xpath("//*[@id='aspnetForm']/main/div/div[3]/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]/a");
+	//th[starts-with(text(),'First Name')]//following::tr[1]/td[2]
+	
+	private By selectTaxYearsoptionElem = By.xpath("//label[normalize-space()= 'Tax Year:']/../select");
+	
+	private By Click_EditEmployeeElem = By.xpath("//a[@id='ctl00_ctl00_ParentContent_cpHeaderRight_hrefEditEmployee']");
+	
+	private By Click_OpeningBalanceElem = By.xpath("//a[@id='ctl00_ctl00_ParentContent_cpHeaderRight_hrefBroughtForward']");
 
 
 	
@@ -170,9 +178,10 @@ public class searchEmployee extends BasePage
      
 	/**
  	 * Click clickonEmpName
+	 * @throws InterruptedException 
      * @name Click clickonEmpName
      */
-	public void Click_clickonEmpName()
+	public void Click_clickonEmpName() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(clickonEmpNameElem);
@@ -184,7 +193,10 @@ public class searchEmployee extends BasePage
 
 			Assert.fail("Unable to locate object: " + clickonEmpNameElem.toString());
         }
+		
+		Thread.sleep(2000);
 
+		elem=m_Driver.findElement(By.xpath("//*[@id='aspnetForm']/main/div/div[3]/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]/a"));
 		//elem.click();
 		jsExec.executeScript("arguments[0].click();", elem);
           	
@@ -193,4 +205,179 @@ public class searchEmployee extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_clickonEmpName");
 	}
+	
+	/**
+ 	 * Select selectTaxYearsoption
+     * @name Select selectTaxYearsoption
+     */
+    public void Select_selectTaxYearsoption(String selectTaxYearsoption)
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(selectTaxYearsoptionElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Select_selectTaxYearsoption", "Select_selectTaxYearsoption failed. Unable to locate object: " + selectTaxYearsoptionElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Select_selectTaxYearsoption", "Select_selectTaxYearsoption failed. Unable to locate object: " + selectTaxYearsoptionElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + selectTaxYearsoptionElem.toString());
+         }
+
+ 		Select dropdown = new Select(elem);
+
+ 		dropdown.selectByVisibleText(selectTaxYearsoption);
+ 		
+ 		
+ 		ExtentReportManager.passStep(m_Driver, "Select_selectTaxYearsoption " + selectTaxYearsoption);
+
+ 		TestModellerLogger.PassStep(m_Driver, "Select_selectTaxYearsoption " + selectTaxYearsoption);
+ 	}
+
+
+	public void verifyPreviousYrData() throws Exception {
+		// TODO Auto-generated method stub
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "Previous Yr Data of Employee");
+		
+	}
+
+
+	public void verifyCurrentYrData() throws Exception {
+		// TODO Auto-generated method stub
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "Current Yr Data of Employee");
+		
+	}
+
+
+	public void verifyEE() throws Exception {
+		// TODO Auto-generated method stub
+		
+		Thread.sleep(2000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "EE imported Successful");
+		
+	}
+
+
+	public void Click_EditEE() throws InterruptedException 
+	{
+		WebElement elem = getWebElement(Click_EditEmployeeElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_EditEE", "Click_EditEE failed. Unable to locate object: " + Click_EditEmployeeElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_EditEE", "Click_EditEE failed. Unable to locate object: " + Click_EditEmployeeElem.toString());
+
+			Assert.fail("Unable to locate object: " + clickonEmpNameElem.toString());
+        }
+		
+		Thread.sleep(2000);
+
+
+		elem.click();
+		          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_EditEE");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_EditEE");
+		
+	}
+
+
+	public void verifyJobTitle() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//input[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_txtDesignation']"));
+		
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+		
+		Thread.sleep(1000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "Job Title Verification");
+		
+	}
+
+
+	public void verifyGender() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//select[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_ddlGender']"));
+		
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+		
+		Thread.sleep(1000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "Gender Verification");
+		
+	}
+
+
+	public void verifyDOB() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//Input[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_txtDOB']"));
+		
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+		
+		Thread.sleep(1000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "DOB Verification");
+		
+	}
+
+
+	public void verifyAddress() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//Input[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_txtAddress1']"));
+		
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+		
+		Thread.sleep(1000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "Address Verification");
+		
+	}
+
+
+	public void verifyDOJ() throws Exception 
+	{
+		
+		WebElement elem=m_Driver.findElement(By.xpath("//Input[@id='txtJoiningDate']"));
+		
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+		
+		Thread.sleep(1000);
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "DOJ Verification");
+		
+	}
+
+
+	public void Click_OpeningBalance() throws InterruptedException 
+	{
+		
+		WebElement elem = getWebElement(Click_OpeningBalanceElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_OpeningBalance", "Click_OpeningBalance failed. Unable to locate object: " + Click_OpeningBalanceElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_OpeningBalance", "Click_OpeningBalance failed. Unable to locate object: " + Click_OpeningBalanceElem.toString());
+
+			Assert.fail("Unable to locate object: " + Click_OpeningBalanceElem.toString());
+        }
+		
+		Thread.sleep(2000);
+
+
+		elem.click();
+		          	
+
+		ExtentReportManager.passStep(m_Driver, "Click_OpeningBalance");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_OpeningBalance");
+		
+	}
+	
 }

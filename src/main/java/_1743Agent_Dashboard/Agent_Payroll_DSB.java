@@ -25,7 +25,7 @@ public class Agent_Payroll_DSB extends BasePage
 
 
 	
-	private By _Payroll_Elem = By.xpath("//*[@id='payrollMenu']/a/span");
+	private By _Payroll_Elem = By.xpath("//span[starts-with(text(),'Payroll')]");
 
 	private By DashboardElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_SideMenu1_PRMenuChildren']/li[1]/a");
 

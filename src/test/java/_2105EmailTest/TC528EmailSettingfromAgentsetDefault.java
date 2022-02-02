@@ -36,7 +36,7 @@ public class TC528EmailSettingfromAgentsetDefault extends TestBase
         Sheet="Sheet3";
      data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
         
-        pages.loginpageSandbox _loginpage = new pages.loginpageSandbox(driver);
+        pages.loginpageSandboxB _loginpage = new pages.loginpageSandboxB(driver);
     TestModellerLogger.SetLastNodeGuid("46d36c40-f463-4658-bf9a-c79bfad8b6ba");
     _loginpage.GoToUrl();
     

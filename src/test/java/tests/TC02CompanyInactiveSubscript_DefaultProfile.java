@@ -121,7 +121,7 @@ pages.activateclient _activateclient = new pages.activateclient(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("a170b91d-0f36-482c-ac35-ca4009a43c7d");
-    _activateclient.Click_ClickIsActive();
+    _activateclient.Click_ClickIsActive(data[5]);
     
 
     TestModellerLogger.SetLastNodeGuid("77c1b262-32d1-4ad3-b234-6fdd49d0c45c");

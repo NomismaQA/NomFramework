@@ -190,6 +190,8 @@ public class verifyClosePayeErrorMessage extends BasePage
  			Assert.fail("Unable to locate object: " + EnterDeRegistrationDateElem.toString());
          }
  		
+ 		Thread.sleep(2000);
+ 		
  		for(int i=0;i<10;i++)
  		{
  			elem.sendKeys(Keys.BACK_SPACE);
