@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 21 08:15:39 IST 2021</td>
+<td>Started on:</td><td>Sun Jan 30 21:46:14 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>97 seconds (97016 ms)</td>
+<tr><td>Total time:</td><td>116 seconds (116174 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='_2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard()'><b>GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard</b><br>Test class: _2087EmailLog.TC455_456EmailLogToEmployee</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]
+<td><div><pre>java.lang.AssertionError: expected [Company-Payroll for the month of 31 May 2021] but found [Company-Payroll for the month of 30 Jun 2021]
 	at org.testng.Assert.fail(Assert.java:99)
-	at VerifyEmailsData.PayrollDsbEmailBody.Click_clickSend(PayrollDsbEmailBody.java:527)
-	at _2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard(TC455_456EmailLogToEmployee.java:146)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at _2087EmailLogPage._2087EmailLog.Click_getLogCount1(_2087EmailLog.java:195)
+	at _2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard(TC455_456EmailLogToEmployee.java:160)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,11 +113,16 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1362708338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1362708338'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cphFooter_btnSave&apos;]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1597870979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1597870979'><pre>java.lang.AssertionError: expected [Company-Payroll for the month of 31 May 2021] but found [Company-Payroll for the month of 30 Jun 2021]
 	at org.testng.Assert.fail(Assert.java:99)
-	at VerifyEmailsData.PayrollDsbEmailBody.Click_clickSend(PayrollDsbEmailBody.java:527)
-	at _2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard(TC455_456EmailLogToEmployee.java:146)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at _2087EmailLogPage._2087EmailLog.Click_getLogCount1(_2087EmailLog.java:195)
+	at _2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard(TC455_456EmailLogToEmployee.java:160)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,7 +152,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>49</td>
+<td>59</td>
 <td>_2087EmailLog.TC455_456EmailLogToEmployee@3be4fcc0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -155,7 +165,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='_2087EmailLog.TC455_456EmailLogToEmployee.GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard1()'><b>GoToUrlAssertUrlClickclickAllowancesSchemesClickmarkYesClickclickSaveClickgotoPayrollDashboard1</b><br>Test class: _2087EmailLog.TC455_456EmailLogToEmployee</td>
 <td></td>
-<td>43</td>
+<td>48</td>
 <td>_2087EmailLog.TC455_456EmailLogToEmployee@3be4fcc0</td></tr>
 </table><p>
 </body>

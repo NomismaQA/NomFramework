@@ -422,9 +422,9 @@ public class CIS_Dashboard extends BasePage
 	{
 		
 		TakeScreenshot.takeScreenshot(m_Driver, "CIS Displays OverDuePayment");
-		int count=m_Driver.findElements(By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[3]/div/div/table/tbody/tr")).size();
+		int count=m_Driver.findElements(By.xpath("//th[starts-with(text(),'Contractor')]/following::tr")).size();
 		
-		count=count-1;
+		//count=count-1;
 		
 		Assert.assertEquals(count, number,"Failed Submission count not matched");
 		

@@ -22,7 +22,7 @@ public class searchEmployee_DefaultProfile extends TestBase
     
     @Test  (groups= {"searchEmployee","searchEmployee - Default Profile"})
     @TestModellerPath(guid = "3b86d892-daf8-412e-8ca3-91a3c0612d49")
-    public void GoToUrlAssertUrlClickclickEmployeeListPositiveSelectSelectEmployeeStatusPositiveEnterEnterEmplo()
+    public void GoToUrlAssertUrlClickclickEmployeeListPositiveSelectSelectEmployeeStatusPositiveEnterEnterEmplo() throws InterruptedException
     {
         
         pages.searchEmployee _searchEmployee = new pages.searchEmployee(driver);

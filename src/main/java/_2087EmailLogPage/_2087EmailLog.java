@@ -186,7 +186,7 @@ public class _2087EmailLog extends BasePage
 
 		String Actual=elem.getText();
 		
-		String Expected="Payslips of A for Tax year 2021-2022";
+		String Expected="Company-Payroll for the month of 31 May 2021";
 		
 		System.out.println(Actual);
 		

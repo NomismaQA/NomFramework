@@ -113,7 +113,7 @@ public class VC_Pension extends BasePage
         }
 
 		elem.click();
-          	
+          	System.out.println("1");
 
 		ExtentReportManager.passStep(m_Driver, "Click_gotoPension_Dashboard");
 
@@ -140,7 +140,7 @@ public class VC_Pension extends BasePage
 
 		elem.click();
           	
-
+		System.out.println("2");
 		ExtentReportManager.passStep(m_Driver, "Click_click_three_dots");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_click_three_dots");
@@ -165,7 +165,7 @@ public class VC_Pension extends BasePage
         }
 
 		elem.click();
-          	
+		System.out.println("3"); 	
 
 		ExtentReportManager.passStep(m_Driver, "Click_clickEdit");
 
@@ -175,9 +175,10 @@ public class VC_Pension extends BasePage
      
 	/**
  	 * Click clickAutoEnrolment
+	 * @throws InterruptedException 
      * @name Click clickAutoEnrolment
      */
-	public void Click_clickAutoEnrolment()
+	public void Click_clickAutoEnrolment() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(clickAutoEnrolmentElem);
@@ -190,8 +191,15 @@ public class VC_Pension extends BasePage
 			Assert.fail("Unable to locate object: " + clickAutoEnrolmentElem.toString());
         }
 
+		Thread.sleep(2000);
 		elem.click();
-          	
+		
+		Thread.sleep(4000);
+		
+		elem=m_Driver.findElement(By.xpath("//SPAN[@id='__tab_ctl00_ctl00_ParentContent_cPH_tbContainer_tpAEPayrollEmployee']"));
+		
+		elem.click();
+		System.out.println("4");	
 
 		ExtentReportManager.passStep(m_Driver, "Click_clickAutoEnrolment");
 
@@ -218,7 +226,7 @@ public class VC_Pension extends BasePage
 
  		elem.clear();
  		elem.sendKeys(EEChosenContribution);
- 		
+ 		System.out.println("5");
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_EEChosenContribution " + EEChosenContribution);
 
@@ -245,7 +253,7 @@ public class VC_Pension extends BasePage
 
  		elem.clear();
  		elem.sendKeys(ERChosenContribution);
- 		
+ 		System.out.println("6");
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_ERChosenContribution " + ERChosenContribution);
 
@@ -273,7 +281,7 @@ public class VC_Pension extends BasePage
  		elem.clear();
  		elem.sendKeys(EEVoluntaryContribution);
  		
- 		
+ 		System.out.println("7");
   		ExtentReportManager.passStep(m_Driver, "Enter_EEVoluntaryContribution " + EEVoluntaryContribution);
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_EEVoluntaryContribution " + EEVoluntaryContribution);
@@ -304,7 +312,7 @@ public class VC_Pension extends BasePage
  		jsExec.executeScript("arguments[0].scrollIntoView();", savebtn);
  		jsExec.executeScript("arguments[0].click();", savebtn);
  		
- 		
+ 		System.out.println("8");
   		ExtentReportManager.passStep(m_Driver, "Enter_ERVoluntaryContribution " + ERVoluntaryContribution);
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_ERVoluntaryContribution " + ERVoluntaryContribution);
@@ -329,7 +337,7 @@ public class VC_Pension extends BasePage
         }
 
 		elem.click();
-		
+		System.out.println("9");
 	//	String date=m_Driver.findElement(By.xpath("//label[contains(.,'Period End:')]/../select")).getAttribute("value");
 	//	String date=elem.getAttribute("value");
  	//	System.out.println("date="+date);
@@ -389,7 +397,7 @@ public class VC_Pension extends BasePage
 
 		elem.click();
           	
-
+		System.out.println("10");
 		ExtentReportManager.passStep(m_Driver, "Click_Run_Payroll1");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Run_Payroll1");
@@ -414,7 +422,7 @@ public class VC_Pension extends BasePage
         }
 
 		elem.click();
-          	
+		System.out.println("11"); 	
 
 		ExtentReportManager.passStep(m_Driver, "Click_Run_Payroll2");
 
@@ -440,7 +448,7 @@ public class VC_Pension extends BasePage
         }
 
 		elem.click();
-          	
+		System.out.println("12");  	
 
 		ExtentReportManager.passStep(m_Driver, "Click_gotoReports");
 
@@ -591,7 +599,7 @@ public class VC_Pension extends BasePage
 		
 		 assertNotEquals(new_EE_Pension , old_EE_Pension,""+new_EE_Pension);
 		 assertNotEquals(new_ER_Pension , old_ER_Pension);
-          	
+		 System.out.println("13");	
 
 		ExtentReportManager.passStep(m_Driver, "Click_clickPayslips2");
 
@@ -679,7 +687,7 @@ public class VC_Pension extends BasePage
 //      		System.out.println("str"+text);
       	}
       	
-		
+      	System.out.println("14");
 	}
 	
 	

@@ -43,7 +43,7 @@ public class activateclientTest_DefaultProfile extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("a170b91d-0f36-482c-ac35-ca4009a43c7d");
-    _activateclient.Click_ClickIsActive();
+    _activateclient.Click_ClickIsActive("123");
     
 
     TestModellerLogger.SetLastNodeGuid("77c1b262-32d1-4ad3-b234-6fdd49d0c45c");
@@ -99,7 +99,7 @@ public class activateclientTest_DefaultProfile extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("a170b91d-0f36-482c-ac35-ca4009a43c7d");
-    _activateclient.Click_ClickIsActive();
+    _activateclient.Click_ClickIsActive("123");
     
 
     TestModellerLogger.SetLastNodeGuid("77c1b262-32d1-4ad3-b234-6fdd49d0c45c");

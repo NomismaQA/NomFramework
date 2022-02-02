@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.ChangeWindow;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -290,9 +291,10 @@ public class AgentDsbPayroll extends BasePage
      
 	/**
  	 * Click  Import Employees
+	 * @throws InterruptedException 
      * @name Click  Import Employees
      */
-	public void Click__Import_Employees()
+	public void Click__Import_Employees() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(_Import_EmployeesElem);
@@ -306,6 +308,10 @@ public class AgentDsbPayroll extends BasePage
         }
 
 		elem.click();
+		
+		ChangeWindow.tabswitch(m_Driver);
+		
+		Thread.sleep(3000);
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click__Import_Employees");
@@ -470,13 +476,15 @@ public class AgentDsbPayroll extends BasePage
 	}
 
 
-	public void getTableCountofAutoPayroll() {
+	public void getTableCountofAutoPayroll() throws InterruptedException {
 		
 		String count=m_Driver.findElement(By.xpath("//*[starts-with(text(),'Total Record')]/b")).getText();
 		System.out.println(count);
 		 Actualcount=Integer.parseInt(count);
 		
 		System.out.println(Actualcount);
+		
+		Thread.sleep(5000);
 		
 	}
 	
@@ -1027,7 +1035,7 @@ public class AgentDsbPayroll extends BasePage
 		jsExec.executeScript("window.scrollBy(0,350)", "");
 		int count=m_Driver.findElements(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_ctl00']/div[2]/div[4]/div/div[1]/div/div/table/tbody/tr/td[2]/span/a")).size();
 		
-		for(int i=1; i<count;i++)
+		for(int i=2; i<count;i++)
 		{
 			int k=i+1;
 			for(int j=k; j<=count; j++)
@@ -1044,6 +1052,17 @@ public class AgentDsbPayroll extends BasePage
 				assertTrue(prevTextVal>=nextTextVal);
 			}
 		}
+		
+	}
+
+
+	public void Click_UploadEEDetailFile() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("1");
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_FileUpload1']")).click();
+		
+		System.out.println("2");
 		
 	}
 

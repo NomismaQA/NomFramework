@@ -29,7 +29,7 @@ public class activateclient extends BasePage
 
 	private By ClickEditompanyElem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cpHeaderRight_hrefEditCompany']");
 
-	private By ClickIsActiveElem = By.xpath("//INPUT[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollCompany_cbIsActive']");
+	private By ClickIsActiveElem = By.xpath("//select[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollCompany_ddlCompanyActive']");
 
 	private By ClickPayrollDetailsElem = By.xpath("//SPAN[@id='__tab_ctl00_ctl00_ParentContent_cPH_tbContainer_tppayrollDetails']");
 
@@ -132,7 +132,7 @@ public class activateclient extends BasePage
 	 * @throws Exception 
      * @name Click ClickIsActive
      */
-	public void Click_ClickIsActive() throws Exception
+	public void Click_ClickIsActive(String status) throws Exception
 	{
         
 		WebElement elem = getWebElement(ClickIsActiveElem);
@@ -145,8 +145,9 @@ public class activateclient extends BasePage
 			Assert.fail("Unable to locate object: " + ClickIsActiveElem.toString());
         }
 
-		//elem.click();
-		jsExec.executeScript("arguments[0].click();", elem);
+		Select compStatus=new Select(elem);
+      	Thread.sleep(2000);
+      	compStatus.selectByVisibleText(status);
 		
           	
 
