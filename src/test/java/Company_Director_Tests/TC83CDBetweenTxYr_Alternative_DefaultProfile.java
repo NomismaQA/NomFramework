@@ -143,30 +143,6 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     _CDBeforeTxYrLow.Click_clickP11();
     
 
-    TestModellerLogger.SetLastNodeGuid("06b60cd7-2a3e-458f-9beb-425d1b487433");
-    _CDBeforeTxYrLow.Click_getLELAmount();
-    
-
-    TestModellerLogger.SetLastNodeGuid("3c886f70-44ed-4a78-a49c-5f9322d999c6");
-    _CDBeforeTxYrLow.Click_getPTAmount();
-    
-
-    TestModellerLogger.SetLastNodeGuid("7cbddbc5-fece-443b-af54-2770fb17c460");
-    _CDBeforeTxYrLow.Click_getUELAmount();
-    
-
-//    TestModellerLogger.SetLastNodeGuid("284ba20d-daea-4d15-a713-71b70abf0bc8");
-//    _CDBeforeTxYrLow.Click_gotoFiling_Management();
-//    
-//
-////    TestModellerLogger.SetLastNodeGuid("3a7f0cc1-77d8-4038-9946-acd84502d9f1");
-////    _CDBeforeTxYrLow.Click_clickFPS();
-//    
-//    _CDBeforeTxYrLow.Enter_getXMLData();
-//    
-//    
-//    _CDBeforeTxYrLow.checkXML();
-
     }
 
 }

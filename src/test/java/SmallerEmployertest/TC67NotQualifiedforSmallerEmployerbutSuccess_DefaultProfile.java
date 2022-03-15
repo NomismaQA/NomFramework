@@ -158,49 +158,6 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     _SmallerEmployer.Click_selectYestosmallER();
     
 
-//    TestModellerLogger.SetLastNodeGuid("acef2072-204b-4bc6-8bb8-75aad95a5646");
-//    _SmallerEmployer.Click_selectNotosmallER();
-//    
-
-    TestModellerLogger.SetLastNodeGuid("d050a6cf-2064-4847-9357-dda355082b21");
-    _SmallerEmployer.Click_clickSave();
-    
-
-//    TestModellerLogger.SetLastNodeGuid("ccd04594-ca58-4895-9426-dc770c38086d");
-//    _SmallerEmployer.Click__Tax_Payment_();
-//    
-//   // _SmallerEmployer.lastyearliability();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("e1a2eee1-44ab-4e31-967b-cdcb2545da0f");
-//    _SmallerEmployer.Select_selectTaxYear(data[5]);
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("15a8c9d6-be6c-4a2f-989f-1d2322bcd2c3");
-//    _SmallerEmployer.Click_clickStatPayamount();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("a96648d9-f0a4-4798-ab20-bd82475f6046");
-//    _SmallerEmployer.Select_selectTaxYear(data[5]);
-//    
-//    
-//    _SmallerEmployer.verifyparenting_pay_recoverd();
-
-//    TestModellerLogger.SetLastNodeGuid("667358fd-2305-439f-9849-0ee5b55cac6e");
-//    _SmallerEmployer.Click_getMonth();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("a16ffdbe-be2e-4ebb-8416-81282e2cd948");
-//    _SmallerEmployer.Click_getParentingPay();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("a3a419cd-7624-47d2-b892-d36205379c3b");
-//    _SmallerEmployer.Click_getParentingPayrecovery();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("b36201af-545a-46ed-8ed5-b97931e436f9");
-//    _SmallerEmployer.Click_getParenting_Pay_NIC_Compensation();
-//    
 
     }
 

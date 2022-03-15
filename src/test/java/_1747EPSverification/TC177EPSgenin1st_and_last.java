@@ -116,10 +116,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     TestModellerLogger.SetLastNodeGuid("b8f497b9-33c0-4c39-bf26-595e889fe36f");
     _payslip.Click_ClickPayroll();
     
-    TestModellerLogger.SetLastNodeGuid("cd342f2a-6174-45a8-825e-cfb2a6fc10fc");
-    _payslip.runPayroll();
-    
-    
+
     
     _1747page.filingmanagement1 _leavertesting = new _1747page.filingmanagement1(driver);
 	  

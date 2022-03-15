@@ -121,7 +121,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     EPS.FirstEPSFilingmanagement _leavertesting = new EPS.FirstEPSFilingmanagement(driver);
 	  
 	  TestModellerLogger.SetLastNodeGuid("daf8d06f-5e14-4f77-b50b-5f0ece9142f1");
-	  _leavertesting.Click_gotoFilingManagement();
+	  _leavertesting.Click_gotoFilingManagement1();
 	  
 	
 

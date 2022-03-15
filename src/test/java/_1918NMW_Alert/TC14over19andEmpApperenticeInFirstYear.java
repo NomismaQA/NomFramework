@@ -190,6 +190,10 @@ pages.gotoPayrollSetting _gotoPayrollSetting = new pages.gotoPayrollSetting(driv
 	    __1918NMWAlert.Enter_EmpJoiningDate(data[8]);
 	    
 	    
+	    TestModellerLogger.SetLastNodeGuid("f294f3ef-1d8d-4549-92d7-9102a9caa0f2");
+	    __1918NMWAlert.Click_ClickMandatoryPayrollInformation();
+	    
+	    
 	    TestModellerLogger.SetLastNodeGuid("29bd7bf6-0470-430e-a131-d91e2d757388");
 	    __1918NMWAlert.Select_EmpNICategoryCode(data[10]);
 	    

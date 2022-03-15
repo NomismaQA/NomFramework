@@ -130,79 +130,11 @@ payslip_Blue _payslip = new payslip_Blue(driver);
     
 
     pages.frequency.weeklyFrequency _weeklyFrequency = new weeklyFrequency(driver);
-//    TestModellerLogger.SetLastNodeGuid("3cda3b45-754e-4f47-a870-82706c251f21");
-//    _weeklyFrequency.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("09be5efa-c172-49e1-aa11-86112ba1883d");
-//    _weeklyFrequency.AssertUrl();
-    
 
-    TestModellerLogger.SetLastNodeGuid("3b66b1f4-823d-43e1-94b1-6cbb755ca091");
-    _weeklyFrequency.Click_ClickAdditionalFrequecy();
-    
-
-    TestModellerLogger.SetLastNodeGuid("ad051a9b-cd3a-4699-92df-ab6c5cd6c946");
-    _weeklyFrequency.Select_selectpayMode(data[5]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("f3fa98aa-350a-433a-ac59-bebd78002d82");
-    _weeklyFrequency.Enter_WeeklyPayrollEndDate(data[6]);
-    
 
     TestModellerLogger.SetLastNodeGuid("80a80029-b980-49b7-a731-2dd47899a3e7");
     _weeklyFrequency.Click_clickSave();
-//    TestModellerLogger.SetLastNodeGuid("8c8be12c-6d3a-45e6-b3d8-0e2f6e4b95f2");
-//    _payslip.Select_TemplateColor("Green");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("e6563590-51e7-4329-aff5-e73745977d7e");
-//    _payslip.Click_ClickSave();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("aa8d5ec7-bbc0-49df-a6eb-d64cdb94738c");
-//    _payslip.Click_gotoReports();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("5e3c9663-2b6a-470f-8f37-22c394dbc458");
-//    _payslip.Click_ClickPayslips();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("e2b0f05b-f663-4a27-a923-1d4ebed48de8");
-//    _payslip.Click_clickReGenerate();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("4ca9d74e-cd12-4819-beb5-67b3a817dc30");
-//    _payslip.Click_downloadPaySlip();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("1fd0b599-53b3-451b-bf2c-871f2aa57638");
-//    _payslip.Click_gotoPayrollDashboard();
-//    
 
-//pages.FrequencySet _FrequencySet = new pages.FrequencySet(driver);
-////    TestModellerLogger.SetLastNodeGuid("564b814b-70d6-49c1-857a-a401e4415828");
-////    _FrequencySet.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("09a3be4f-3775-47cb-8139-af0fa98ee4ba");
-////    _FrequencySet.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("10360639-06a2-4153-a923-94b7e129ad51");
-//    _FrequencySet.Click_ClickAdditionalFrequecy();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("bc000deb-9644-44f3-8250-44ab14c168ca");
-//    _FrequencySet.Select_payMode("Weekly");
-//    
-//
-////    TestModellerLogger.SetLastNodeGuid("bf31ec7a-a244-44c7-9b9e-340dd1c8ce83");
-////    _FrequencySet.Enter_SelectFrequency("30/06/2020");
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("accce833-ca74-4808-808d-69fc58f96bd8");
-//    _FrequencySet.Click_clickSave();
     
 
 pages.frequency.runpayrollpage1 _runpayrollpage = new runpayrollpage1(driver);
@@ -225,6 +157,13 @@ pages.frequency.runpayrollpage1 _runpayrollpage = new runpayrollpage1(driver);
     TestModellerLogger.SetLastNodeGuid("d10efd7b-df4a-4dfc-acf2-97992c2e4340");
     _runpayrollpage.Click_ClickRunPayroll2();
     
+    
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
 
     }
 

@@ -150,38 +150,9 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
       _verifyEmail.Click_clickSend();
 
 
-//		TestModellerLogger.SetLastNodeGuid("aa04cc2d-3731-4ff6-b43d-958eb4e9fe45");
-//			_verifyClosePayeErrorMessageOOPS.Click_gotoEditCompany();
-//
-//
-//			TestModellerLogger.SetLastNodeGuid("0bf3be1b-b00c-4d1e-a715-8a4e4ab4fdc8");
-//			_verifyClosePayeErrorMessageOOPS.Click_gotoPayrollDetails();
-     
         
         Quaterly_Paye_Scheme.NoAllowenceScheme _AllowenceScheme = new Quaterly_Paye_Scheme.NoAllowenceScheme(driver);
-//    TestModellerLogger.SetLastNodeGuid("bae0140d-dc17-4241-81b8-7b78e2574174");
-//    _AllowenceScheme.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("ed563f15-dc52-4aee-9b34-0c281f72bd20");
-//    _AllowenceScheme.AssertUrl();
-    
 
-//    TestModellerLogger.SetLastNodeGuid("60585696-efea-430a-b012-bacf6202f632");
-//    _AllowenceScheme.Click_clickAllowances_Schemes();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("fe297d44-a712-442e-9d2c-2c2489254660");
-//    _AllowenceScheme.Click_markYes();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("120c4873-a6b6-44d3-b182-de85936b900c");
-//    _AllowenceScheme.Click_clickSave();
-//    
-
-//    TestModellerLogger.SetLastNodeGuid("e211e2aa-4b5d-4d68-9852-9638070b28a4");
-//    _AllowenceScheme.Click_gotoPayrollDashboard();
-    
 
     TestModellerLogger.SetLastNodeGuid("2699015c-0e09-4e7c-a038-914b7cda00e7");
     _AllowenceScheme.Click_gotoReports();
@@ -193,6 +164,18 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
     TestModellerLogger.SetLastNodeGuid("ecb461e7-351c-46aa-9bc9-076e15f1d048");
     _AllowenceScheme.verifysummaryformonthly();
+    
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
+
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	   	    
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
     
 
     }

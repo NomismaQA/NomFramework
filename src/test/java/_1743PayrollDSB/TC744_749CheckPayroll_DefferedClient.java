@@ -26,7 +26,7 @@ public class TC744_749CheckPayroll_DefferedClient extends TestBase
     String Sheet = null;
 
     
-    @Test  (priority=1,enabled=false, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
+    @Test  (priority=1,enabled=true, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
     public void Deffered_Overdue() throws Exception
     {
@@ -101,7 +101,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     }
     
     
-    @Test  (priority=2,enabled=false, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
+    @Test  (priority=2,enabled=true, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
     public void Deffered_1week() throws Exception
     {
@@ -176,7 +176,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     }
     
     
-    @Test  (priority=3,enabled=false, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
+    @Test  (priority=3,enabled=true, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
     public void Deffered_1Month() throws Exception
     {
@@ -250,7 +250,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     
     }
     
-    @Test  (priority=4,enabled=false, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
+    @Test  (priority=4,enabled=true, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
     public void Deffered_2Month() throws Exception
     {
@@ -325,7 +325,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     }
     
     
-    @Test  (priority=5,enabled=false, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
+    @Test  (priority=5,enabled=true, groups= {"subscriptAllowenceScheme","subscriptAllowenceScheme - Default Profile"})
     @TestModellerPath(guid = "31d2a370-1db7-493d-a71f-dd8a5031b654")
     public void Deffered_3_6Month() throws Exception
     {

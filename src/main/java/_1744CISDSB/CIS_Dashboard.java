@@ -40,11 +40,11 @@ public class CIS_Dashboard extends BasePage
 
 	private By DueSubmissionElem = By.xpath("//A[@href='CISSubmit.aspx?UC=0&IsDash=1']");
 
-	private By OverDueReturnsElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[4]/div[2]/div/div/div[2]/div/div/a[2]");
+	private By OverDueReturnsElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divMainContent']/div[4]/div[2]/div/div/div[2]/div/div/a[2]");
 
-	private By UpcomingReturnsElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[4]/div[2]/div/div/div[4]/div/div/a[2]");
+	private By UpcomingReturnsElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divMainContent']/div[4]/div[2]/div/div/div[3]/div/div/a[2]");
 
-	private By FailedSubmissionElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[4]/div[2]/div/div/div[4]/div/div/a[2]");
+	private By FailedSubmissionElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_divMainContent']/div[4]/div[2]/div/div/div[4]/div/div/a[2]");
 
 	private By TotalContractorElem = By.xpath("//A[@class='el-selection']");
 

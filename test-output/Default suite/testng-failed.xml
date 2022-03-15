@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_1956Test.TC327_328_1956LeaveNegativBalance">
+      <class name="Nidhi.LedgerBookTest">
         <methods>
           <include name="closeReporter"/>
-          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive1"/>
           <include name="closerDriver"/>
           <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlClickAddLeavePositiveSelectselectEmployeePositiveSelectselectLeaveTypePositive2"/>
+          <include name="GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs1"/>
           <include name="allocateData"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- _1956Test.TC327_328_1956LeaveNegativBalance -->
+      </class> <!-- Nidhi.LedgerBookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

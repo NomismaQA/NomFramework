@@ -100,64 +100,10 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
  _OpenClient.Click_ClientsClick();
  
 
-// TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-// _OpenClient.Enter_EnterClientName(data[4]);
-// 
-//
-// TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-// _OpenClient.Click_ClickSearch();
-// 
-//
-// TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-// _OpenClient.Click_ClickClient();
-// 
-// 
-// verifyClosePayeErrorMessageOOPS _verifyClosePayeErrorMessageOOPS = new verifyClosePayeErrorMessageOOPS(driver);
-////TestModellerLogger.SetLastNodeGuid("78bf52da-502f-4503-bb97-b41051eba82c");
-////_verifyClosePayeErrorMessage.GoToUrl();
-////
-////
-////TestModellerLogger.SetLastNodeGuid("c9b025ad-2025-4174-9800-7912c22ab683");
-////_verifyClosePayeErrorMessage.AssertUrl();
-//
-//
-// 		TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
-// 		_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
- 		
  		
  		_2087EmailLogPage._2087EmailLog __2087EmailLog = new _2087EmailLogPage._2087EmailLog(driver);
  		
- //		__2087EmailLog.getDate();
- 		
- 		
- 		
- //		PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
- 		
- //		VerifyEmailsData.PayrollDsbEmailBody _PayrollDsbEmailBody = new VerifyEmailsData.PayrollDsbEmailBody(driver);
- 	    
-// 		TestModellerLogger.SetLastNodeGuid("76227d22-84e4-4fc9-9614-7542782d7a70");
-// 	    _PayrollDsbEmailBody.Click_clickRunPayroll1();
-// 	    
-//
-// 	    TestModellerLogger.SetLastNodeGuid("226f6549-cfa9-4a48-89b6-6f134625a6c5");
-// 	    _PayrollDsbEmailBody.Select_selectPaySlipTemplate(data[5]);
-// 	    
-//
-// 	    TestModellerLogger.SetLastNodeGuid("1a18737c-e1ab-42ed-920e-0a4c22ddc751");
-// 	    _PayrollDsbEmailBody.Click_RunPayroll2();
-// 	    
-// 	   TestModellerLogger.SetLastNodeGuid("3dbb815a-3944-4f29-a1b0-f2623fa8ee8c");
-// 	    _PayrollDsbEmailBody.Click_clickSend();
-// 	    
-// 	   PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-// 	   
-// 	  _PayrollDashboardCheck.Click_gotoTaxPaymentBtn();
-// 		
-// 		
-// 		
-// 		
-// 		__2087EmailLog.payrollMonthsDate();
- 		
+ 
  		TestModellerLogger.SetLastNodeGuid("e64508e0-bceb-47f3-9f68-b2166e26e48b");
  	    __2087EmailLog.Click_clickOnPerson();
  	    

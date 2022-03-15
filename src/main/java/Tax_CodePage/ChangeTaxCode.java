@@ -46,7 +46,7 @@ public class ChangeTaxCode extends BasePage
 
 	private By Pay_DetailsElem = By.xpath("//A[contains(text(),'Pay Details')]");
 
-	private By EnterBasicSalaryElem = By.xpath("//label[normalize-space()= 'Monthly Salary:']/../div/input");
+	private By EnterBasicSalaryElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_txtBasicSalary']");
 
 	private By _SaveElem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_cpHFooter_btnSave']");
 
@@ -320,9 +320,10 @@ public class ChangeTaxCode extends BasePage
       
 	/**
  	 * Enter EnterBasicSalary
+	 * @throws InterruptedException 
      * @name Enter EnterBasicSalary
      */
- 	public void Enter_EnterBasicSalary(String EnterBasicSalary)
+ 	public void Enter_EnterBasicSalary(String EnterBasicSalary) throws InterruptedException
  	{
  	    
  		WebElement elem = getWebElement(EnterBasicSalaryElem);
@@ -334,9 +335,14 @@ public class ChangeTaxCode extends BasePage
 
  			Assert.fail("Unable to locate object: " + EnterBasicSalaryElem.toString());
          }
-
- 		elem.clear();
+for(int i=0; i<10; i++)
+{
+ 		elem.sendKeys(Keys.BACK_SPACE);
+}
  		elem.sendKeys(EnterBasicSalary);
+ 		elem.sendKeys(Keys.TAB);
+ 		Thread.sleep(2000);
+ 		m_Driver.switchTo().alert().accept();
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_EnterBasicSalary " + EnterBasicSalary);

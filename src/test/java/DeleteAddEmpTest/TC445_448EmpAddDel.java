@@ -121,75 +121,6 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
 	
 	
-	DeleteAddEmpPage.Add_Delete_Employee _Add_Delete_Employee = new DeleteAddEmpPage.Add_Delete_Employee(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("9dfbe92c-eb24-47f9-b8b4-b761bf3a24ad");
-    _Add_Delete_Employee.Click__New_Employee_();
-    
-
-    TestModellerLogger.SetLastNodeGuid("eca607be-67c2-40b7-aecf-5b6a8dcf4ebd");
-    _Add_Delete_Employee.Click_Personal_Details();
-    
-
-    TestModellerLogger.SetLastNodeGuid("caf2c3f9-ae18-4dd0-a88a-e4a39377e79c");
-    _Add_Delete_Employee.Enter_EnterFirstName(data[5]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("8ba29342-03c3-4f0d-a40a-7eda8917d388");
-    _Add_Delete_Employee.Enter_EnterLastName(data[6]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("9bd8968b-2e34-4575-8891-b0ec7ca2a6e5");
-    _Add_Delete_Employee.Select_Gender(data[7]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("4aacd0cb-7ff5-4944-86ca-873a4fa0d5cf");
-    _Add_Delete_Employee.Enter_EnterDOB(data[8]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("80073638-eb5e-4bef-af4d-97faa137c6f8");
-    _Add_Delete_Employee.Enter_Address1(data[9]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("11d94da7-49db-4ea6-b38b-09ab87671c08");
-    _Add_Delete_Employee.Enter_EnterAddress2(data[10]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("38cbf407-5307-4f5f-9350-c6cf81a543eb");
-    _Add_Delete_Employee.Select_DropDownCountry(data[11]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("ac2fba41-dd22-49e9-9855-c11544ca5ff3");
-    _Add_Delete_Employee.Enter_Country(data[9]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("6517cc9f-20b5-4e16-a068-583f9c397f75");
-    _Add_Delete_Employee.Click_Mandatory_Payroll_Information();
-    
-
-    TestModellerLogger.SetLastNodeGuid("d08b0522-899a-4ecc-b208-dae733e6e4bd");
-    _Add_Delete_Employee.Enter_EnterJoiningDate(data[12]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("2fec68fa-bc70-4399-a319-4d766cd92f55");
-    _Add_Delete_Employee.Select_PayrollFrequencyCode(data[13]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("eadd6aca-15b3-4ad4-9f51-46a9e5a91282");
-    _Add_Delete_Employee.Enter_EnterTaxCode(data[14]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("44131a31-359f-456e-a413-1e866b8bc3cc");
-    _Add_Delete_Employee.Click_Pay_Details();
-    
-
-    TestModellerLogger.SetLastNodeGuid("9daefca3-bfbf-47a9-87f1-15d7fe7e5049");
-    _Add_Delete_Employee.Enter_EnterBasicSalary(data[15]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("e973c4e9-b157-42f0-b867-0f451b5cac28");
-    _Add_Delete_Employee.Click_Save();
-	
 
     }
     
@@ -287,33 +218,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
 	
 	
-	 PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-	    
-	    TestModellerLogger.SetLastNodeGuid("5b352d43-6f19-4f73-b2ec-bc79577eb857");
-	    _PayrollDoUndo.Click_RunPayroll1();
-	    
 
-	    TestModellerLogger.SetLastNodeGuid("21c1b047-4521-4814-a8ef-f2520560bfa3");
-	    _PayrollDoUndo.Click_RunPayroll2();
-	    
-	    
-	    DeleteAddEmpPage.Add_Delete_Employee _Add_Delete_Employee = new DeleteAddEmpPage.Add_Delete_Employee(driver);
-	    
-	    TestModellerLogger.SetLastNodeGuid("72946bbb-b682-4582-a9d1-eb01ef0d27df");
-	    _Add_Delete_Employee.Click_clickThreeDot();
-	    
-	    TestModellerLogger.SetLastNodeGuid("72946bbb-b682-4582-a9d1-eb01ef0d27df");
-	    _Add_Delete_Employee.searchDeleteOption();
-    
-//    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-//    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-        
-//    	PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-    _PayrollDoUndo.Click_Undo_Last_Payroll_();
- 
     }
     
     
@@ -408,27 +313,8 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
 	
 	
-	PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-    
-    TestModellerLogger.SetLastNodeGuid("5b352d43-6f19-4f73-b2ec-bc79577eb857");
-    _PayrollDoUndo.Click_RunPayroll1();
-    
 
-    TestModellerLogger.SetLastNodeGuid("21c1b047-4521-4814-a8ef-f2520560bfa3");
-    _PayrollDoUndo.Click_RunPayroll2();
-	
-	
-	DeleteAddEmpPage.Add_Delete_Employee _Add_Delete_Employee = new DeleteAddEmpPage.Add_Delete_Employee(driver);
-    
-    TestModellerLogger.SetLastNodeGuid("72946bbb-b682-4582-a9d1-eb01ef0d27df");
-    _Add_Delete_Employee.Click_clickThreeDot();
-	
-    TestModellerLogger.SetLastNodeGuid("72946bbb-b682-4582-a9d1-eb01ef0d27df");
-    _Add_Delete_Employee.TakeScShot();
-    
-    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+ 
 
     }
     
@@ -524,18 +410,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
     
 	
-	DeleteAddEmpPage.Add_Delete_Employee _Add_Delete_Employee = new DeleteAddEmpPage.Add_Delete_Employee(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("72946bbb-b682-4582-a9d1-eb01ef0d27df");
-    _Add_Delete_Employee.Click_clickThreeDot();
-    
 
-    TestModellerLogger.SetLastNodeGuid("f075bef4-30d7-473b-a6c2-3a87e978016f");
-    _Add_Delete_Employee.Click_chooseDelete();
-    
-    TestModellerLogger.SetLastNodeGuid("f075bef4-30d7-473b-a6c2-3a87e978016f");
-    _Add_Delete_Employee.ClickDelete();
-    
     }
 
 }

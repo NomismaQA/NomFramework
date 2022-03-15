@@ -325,8 +325,22 @@ pages.TaxAndReport _TaxAndReport = new pages.TaxAndReport(driver);
     _payslip.Click_clickReGenerate();
     
 
-    TestModellerLogger.SetLastNodeGuid("4ca9d74e-cd12-4819-beb5-67b3a817dc30");
-    _payslip.Click_downloadPaySlip();
+//    TestModellerLogger.SetLastNodeGuid("4ca9d74e-cd12-4819-beb5-67b3a817dc30");
+//    _payslip.Click_downloadPaySlip();
+    
+    
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
+
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+
     
     
 

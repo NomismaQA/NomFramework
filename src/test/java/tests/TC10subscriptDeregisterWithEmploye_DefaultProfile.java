@@ -184,186 +184,27 @@ pages.verifypage2 _verifypage = new pages.verifypage2(driver);
     TestModellerLogger.SetLastNodeGuid("f29f7141-3b91-4fe0-8cc9-fa6c11dd5a0c");
     _verifypage.Click_gotoFilingManagement();
     
+    _verifypage.undoSubmission();
     
-//    pages.reports _reports = new pages.reports(driver);
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////   _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("e24decb8-2294-46da-ad75-0ba3b8be4ff0");
-//    _reports.Click_P45Forms();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("a696cd3f-5e17-4d2d-8096-da4a60d86df1");
-//    _reports.Select_SelectP45Form("P45");
-//    
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("17436297-2a6b-4dfe-b2b6-d389fd8faa34");
-//    _reports.Click_Apprenticeship_Levy();
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("f8e452ee-ab62-4165-a0cb-a997a3323c90");
-//    _reports.Click_BACs_Payment_Upload_File();
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("5e46b00d-510a-4823-b5a7-89669363fd7a");
-//    _reports.Click_Employee_Details_Listclick();
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("319ac179-14a9-4a9a-82a6-ed809c730542");
-//    _reports.Click_Individual_Employee_Pay_Scheduleclick();
-//    
-//    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-//    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("b2d4ada0-4643-48cc-bc36-06e730e2bf60");
-//    _reports.Click_P11();
-//    
-//    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-//    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("a3a28dc0-2983-4c0a-bc36-5632d0531c54");
-//    _reports.Click_Payroll_Reporting_Period_Summary();
-//    
-//    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-//    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("81367740-2de3-4561-86ce-f8546bc97841");
-//    _reports.Click_Payroll_Summary();
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("57d17e00-dfd9-4dfd-bf3f-45781d531542");
-//    _reports.Click_Payslipsclick();
-//    
-////    TestModellerLogger.SetLastNodeGuid("ab102354-b6d1-44b0-8435-d0c261e53cb1");
-////    _reports.GoToUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("8f90235c-979c-41f4-b584-2e7fe6a9d756");
-//    _reports.Click_Statutory_Maternity_Paternityclick();
-//    
+    
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
+
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Deregister();
+	    
+	    
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+    
+    
+
 
     }
-/*
-    @Test  (groups= {"subscriptDeregisterWithEmploye","subscriptDeregisterWithEmploye - Default Profile"})
-    @TestModellerPath(guid = "5d3a5581-f79b-4618-a148-17c77c2ec306")
-    public void GoToUrlAssertUrlPositiveSelectStatusSearch1ClickSelectCheckBoxPositiveSelectSubmitReasonClickS2() throws Exception
-    {
-        
-        pages.DeregisterwithEmployee _DeregisterwithEmployee = new pages.DeregisterwithEmployee(driver);
-    TestModellerLogger.SetLastNodeGuid("e7e7b13e-cad5-4ca5-8a0c-da98f1de055e");
-    _DeregisterwithEmployee.GoToUrl();
-    
 
-    TestModellerLogger.SetLastNodeGuid("d6423e20-09c0-476a-9514-bfb648ed0f57");
-    _DeregisterwithEmployee.AssertUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("30c9a3c5-7da0-4e63-9f1b-c116c58016df");
-    _DeregisterwithEmployee.Select_StatusSearch1("Pending");
-    
-
-    TestModellerLogger.SetLastNodeGuid("a3524d39-3d26-45a6-bc91-6b5104c4ce02");
-    _DeregisterwithEmployee.Click_SelectCheckBox();
-    
-
-    TestModellerLogger.SetLastNodeGuid("8122f2d7-794b-451a-8976-64e237769729");
-    _DeregisterwithEmployee.Select_SubmitReason("Reasonable excuse");
-    
-
-    TestModellerLogger.SetLastNodeGuid("11a48221-7314-4ea1-8bea-d3f16636ad0b");
-    _DeregisterwithEmployee.Click_SubmitToHMRC();
-    
-
-    TestModellerLogger.SetLastNodeGuid("78e38328-5850-48a5-b344-62e690b4223c");
-    _DeregisterwithEmployee.Click_PayrollDashboard();
-    
-
-    TestModellerLogger.SetLastNodeGuid("a4dc0a5c-2ac0-4f93-845f-4297ce0c9817");
-    _DeregisterwithEmployee.Click_RunPayroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("8c9eed08-021a-4fe7-819f-03d548b3a2ac");
-    _DeregisterwithEmployee.Click_RunPayroll2();
-    
-
-pages.deregistercompany _deregistercompany = new pages.deregistercompany(driver);
-    TestModellerLogger.SetLastNodeGuid("92e36840-8038-4058-b69e-dcc782f97d62");
-    _deregistercompany.GoToUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("f210d055-c68b-4639-9f56-2e37685b74e2");
-    _deregistercompany.AssertUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("1c5a03d8-2b44-4009-8013-157adee9170c");
-    _deregistercompany.Click_ClickRunPayroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("b7945180-59df-470a-9376-78c9b86ce68a");
-    _deregistercompany.Click_ClickRunPayroll2();
-    
-
-    TestModellerLogger.SetLastNodeGuid("576ee54e-7555-456b-ac17-75ab51aedf4f");
-    _deregistercompany.Click_ClickEditCompany();
-    
-
-    TestModellerLogger.SetLastNodeGuid("567c58ae-55ad-448f-8a09-ef1acf55aa06");
-    _deregistercompany.Click_gotoPayrollDetails();
-    
-
-    TestModellerLogger.SetLastNodeGuid("80f7bc94-218f-4326-a31a-dfa32c9c94db");
-    _deregistercompany.Click_selectYes();
-    
-
-    TestModellerLogger.SetLastNodeGuid("5b939b97-177b-46c4-8a72-05a1c721dc67");
-    _deregistercompany.Enter_EnterDeRegistrationDate("44280.546959340281");
-    
-
-    TestModellerLogger.SetLastNodeGuid("112659ad-e4a5-4eb5-864b-261bdd1cdbfe");
-    _deregistercompany.Click_ClickSave();
-    
-
-pages.verifypage _verifypage = new pages.verifypage(driver);
-    TestModellerLogger.SetLastNodeGuid("8966ec8c-5997-446f-8516-3d0395be64bb");
-    _verifypage.GoToUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("1b6ac91c-411a-4da3-a48d-0e675c22edf6");
-    _verifypage.AssertUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("ada05901-b7d7-428c-be1d-92efed88ee50");
-    _verifypage.Click_gotoPayrollDashboard();
-    
-
-    TestModellerLogger.SetLastNodeGuid("0920bf51-30ea-40e7-9db0-4b1f44c63ae0");
-    _verifypage.Click__Company_DeRegistered_Message();
-    
-
-    TestModellerLogger.SetLastNodeGuid("f29f7141-3b91-4fe0-8cc9-fa6c11dd5a0c");
-    _verifypage.Click_gotoFilingManagement();
-    
-
-    }
-*/
 }

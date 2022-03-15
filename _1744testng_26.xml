@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="_1744Test">
+<suite name="_1744testngSuite">
+  <test thread-count="5" name="_1744testngTest">
     <classes>
       <class name="_1744CISDSBTest.TC494PeriodSelectOptionView"/>
       <class name="_1744CISDSBTest.TC498_499InactiveActiveContractor"/>
@@ -26,8 +26,9 @@
       <class name="_1744CISDSBTest.TC492UpcomingReturnViewWithPeriodSelectOption"/>
       <class name="_1744CISDSBTest.TC495UpcomingReturnViewWithPeriod60DaysOption"/>
       <class name="_1744CISDSBTest.TC496FailedSubmission"/>
+      <class name="_1744CISDSBTest.TC501VerifySubContrAddedA"/>
       <class name="_1744CISDSBTest.TC497ContractorEditPage"/>
       <class name="_1744CISDSBTest.TC511ContractorListInaccountManager"/>
     </classes>
-  </test> <!-- _1744Test -->
-</suite> <!-- Suite -->
+  </test> <!-- _1744testngTest -->
+</suite> <!-- _1744testngSuite -->

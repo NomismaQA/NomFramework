@@ -127,24 +127,12 @@ public class T148TC01_1943_GrossPayCalculation_DefaultProfile extends TestBase
     _Gross_Pay_Calculation.Click_EE_GrossPay();
     
 
-    TestModellerLogger.SetLastNodeGuid("018d7507-efbb-477e-b0d2-8599698131f7");
-    _Gross_Pay_Calculation.Click_clickRun_Payroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("f4e0d203-f17e-409f-8a75-aff33f531ef7");
-    _Gross_Pay_Calculation.Click_clickRun_Payroll2();
-    
 
     TestModellerLogger.SetLastNodeGuid("f47eca97-5dbe-42ad-a56f-66e2eeecd557");
     _Gross_Pay_Calculation.Click_gotoReports();
     
 
-    TestModellerLogger.SetLastNodeGuid("f47eca97-5dbe-42ad-a56f-66e2eeecd557");
-    _Gross_Pay_Calculation.Click_Payslipsclick();
-    
-//    TestModellerLogger.SetLastNodeGuid("4ddd4a5f-c403-4212-bc46-297d7be60da2");
-//    _Gross_Pay_Calculation.Click_getTotalBasicPay();
-//    
+
 
     }
 

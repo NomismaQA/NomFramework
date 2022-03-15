@@ -335,4 +335,13 @@ public class verifyClosePayeErrorMessageOOPS extends BasePage
 		
 		
 	}
+
+
+	public void createScheduleverify() throws Exception 
+	{
+		
+		TakeScreenshot.takeScreenshot(m_Driver, "PayrollDsbd");
+		
+		
+	}
 }

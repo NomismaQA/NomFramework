@@ -79,77 +79,7 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     _agentpage.Click_ClickAgent();
     
 
-//pages.OpenClient _OpenClient = new pages.OpenClient(driver);
-////    TestModellerLogger.SetLastNodeGuid("a2eed44d-804f-4b67-9b66-2c070de63801");
-////    _OpenClient.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("eb92f601-3d2d-49bb-879e-ec9f2e62447f");
-////    _OpenClient.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
-//    _OpenClient.Click_ClientsClick();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-//    _OpenClient.Enter_EnterClientName(data[4]);
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-//    _OpenClient.Click_ClickSearch();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-//    _OpenClient.Click_ClickClient();
-//    
 
-//payslip_Green _payslip = new payslip_Green(driver);
-//    TestModellerLogger.SetLastNodeGuid("300a58c3-f94e-454a-a07e-b59f42067db9");
-//    _payslip.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("cd342f2a-6174-45a8-825e-cfb2a6fc10fc");
-//    _payslip.AssertUrl();
-//    
-
-//    TestModellerLogger.SetLastNodeGuid("b8f497b9-33c0-4c39-bf26-595e889fe36f");
-//    _payslip.Click_ClickPayroll();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("23be5cc2-a814-441a-bd93-1259e9cd737c");
-//    _payslip.Click_gotoEditCompany();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("830a477f-25b6-4192-a363-21bc8e650287");
-//    _payslip.Click_clickPayrollDetails();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("3517f720-6625-4f86-9d29-386402999915");
-//    _payslip.Click_clickPayrollSettings();
-    
-
-  
-
-//pages.paswProtectionPDF _paswProtectionPDF = new pages.paswProtectionPDF(driver);
-////    TestModellerLogger.SetLastNodeGuid("04281830-e8f1-48f8-a39d-323781adfa87");
-////    _paswProtectionPDF.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("0b571f32-1094-483f-ae3c-2a30aa064117");
-////    _paswProtectionPDF.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("ca14ab73-7f7d-4485-afff-c2a7aa71b576");
-//    _paswProtectionPDF.Select_SelectPaswdProtectionFormat(data[5]);
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.Click_clickSave();
-//    
-//    
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.SwitchToAgentPage(2);
     
     
 _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashboard.Agent_Payroll_DSB(driver);
@@ -163,43 +93,6 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     
     
    
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[4]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[5]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    _Agent_Payroll_DSB.popUpScreenshot();
-    
-//    
-//    runPayroll.Select_SendPayslipDropdown(data[8]);
-//    
-//    runPayroll.Click_YesToFileWithHMRC();
-//    
-//    runPayroll.Click_Run_Payroll2();
-//    
-//    runPayroll.gotoWait();
-//    
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.SwitchToAgentPage(4);
-//    
-//    
-//    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-//	
-//	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-//    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-//
-//
-//    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-//
-//
-//	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-//	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
 
 
 
@@ -340,41 +233,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+ 
 
     }
     
@@ -512,40 +371,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+ 
 
 
     }
@@ -683,41 +509,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+ 
 
 
     }
@@ -856,40 +648,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+ 
 
 
     }
@@ -1028,41 +787,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+ 
 
     }
     
@@ -1201,42 +926,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
-
+  
     }
     
     @Test  (priority=8,enabled=true,groups= {"SubscriptPswdProtectionPDF","SubscriptPswdProtectionPDF - Default Profile"})
@@ -1373,39 +1063,6 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
 
 
 
@@ -1546,41 +1203,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+  
 
     }
     
@@ -1717,42 +1340,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+  
 
     }
     
@@ -1890,42 +1478,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
-
+ 
     }
     
     @Test  (priority=12,enabled=true,groups= {"SubscriptPswdProtectionPDF","SubscriptPswdProtectionPDF - Default Profile"})
@@ -2061,41 +1614,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+  
 
 
     }
@@ -2234,41 +1753,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+ 
 
     }
     
@@ -2405,42 +1890,6 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait1();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
 
     }
     
@@ -2578,42 +2027,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait1();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+ 
 
     }
     
@@ -2751,42 +2165,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
     TestModellerLogger.SetLastNodeGuid("66d32f4c-3300-4a27-b91a-d208982572f4");
     _Agent_Payroll_DSB.Click_Run_Payroll();
     
-    
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[6]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[7]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[8]);
-    
-  //  runPayroll.Click_YesToFileWithHMRC();
-    
-    runPayroll.Click_Run_Payroll2();
-    
-    runPayroll.gotoWait1();
-    
-    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-	
-	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
-
+ 
 
     }
     
@@ -2841,78 +2220,6 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     _agentpage.Click_ClickAgent();
     
 
-//pages.OpenClient _OpenClient = new pages.OpenClient(driver);
-////    TestModellerLogger.SetLastNodeGuid("a2eed44d-804f-4b67-9b66-2c070de63801");
-////    _OpenClient.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("eb92f601-3d2d-49bb-879e-ec9f2e62447f");
-////    _OpenClient.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
-//    _OpenClient.Click_ClientsClick();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-//    _OpenClient.Enter_EnterClientName(data[4]);
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-//    _OpenClient.Click_ClickSearch();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-//    _OpenClient.Click_ClickClient();
-//    
-
-//payslip_Green _payslip = new payslip_Green(driver);
-//    TestModellerLogger.SetLastNodeGuid("300a58c3-f94e-454a-a07e-b59f42067db9");
-//    _payslip.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("cd342f2a-6174-45a8-825e-cfb2a6fc10fc");
-//    _payslip.AssertUrl();
-//    
-
-//    TestModellerLogger.SetLastNodeGuid("b8f497b9-33c0-4c39-bf26-595e889fe36f");
-//    _payslip.Click_ClickPayroll();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("23be5cc2-a814-441a-bd93-1259e9cd737c");
-//    _payslip.Click_gotoEditCompany();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("830a477f-25b6-4192-a363-21bc8e650287");
-//    _payslip.Click_clickPayrollDetails();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("3517f720-6625-4f86-9d29-386402999915");
-//    _payslip.Click_clickPayrollSettings();
-    
-
-  
-
-//pages.paswProtectionPDF _paswProtectionPDF = new pages.paswProtectionPDF(driver);
-////    TestModellerLogger.SetLastNodeGuid("04281830-e8f1-48f8-a39d-323781adfa87");
-////    _paswProtectionPDF.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("0b571f32-1094-483f-ae3c-2a30aa064117");
-////    _paswProtectionPDF.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("ca14ab73-7f7d-4485-afff-c2a7aa71b576");
-//    _paswProtectionPDF.Select_SelectPaswdProtectionFormat(data[5]);
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.Click_clickSave();
-//    
-//    
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.SwitchToAgentPage(2);
-    
     
 _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashboard.Agent_Payroll_DSB(driver);
     
@@ -2926,80 +2233,7 @@ _1743Agent_Dashboard.Agent_Payroll_DSB _Agent_Payroll_DSB = new _1743Agent_Dashb
  //   _Agent_Payroll_DSB.popUpScreenshot();
     
     
-    NewPages.Agent_Payroll_RunPayroll runPayroll=new NewPages.Agent_Payroll_RunPayroll(driver);
-    
-    runPayroll.SelectDueDate(data[4]);
-    
-    runPayroll.Click_UpdateBtn();
-    
-    runPayroll.checkClient(data[5]);
-    
-    runPayroll.Click_Run_Payroll();
-    
-    runPayroll.Select_SendPayslipDropdown(data[6]);
-//    
-//    runPayroll.Click_YesToFileWithHMRC();
-//    
-    runPayroll.Click_Run_Payroll2();
-//    
-    runPayroll.gotoWait();
-    
-    runPayroll.SCforNoToFileHMRC();
-    
-//    TestModellerLogger.SetLastNodeGuid("7d95dae3-a976-4f95-9e66-d9d40fa8b1ba");
-//    _paswProtectionPDF.SwitchToAgentPage(4);
-    
-    
-    pages.OpenClient _OpenClient = new pages.OpenClient(driver);
-//TestModellerLogger.SetLastNodeGuid("a2eed44d-804f-4b67-9b66-2c070de63801");
-//_OpenClient.GoToUrl();
-//
-//
-//TestModellerLogger.SetLastNodeGuid("eb92f601-3d2d-49bb-879e-ec9f2e62447f");
-//_OpenClient.AssertUrl();
-//
-
-TestModellerLogger.SetLastNodeGuid("6d52cbb9-3379-41d8-b7a6-175f48cb6c94");
-_OpenClient.Click_ClientsClick();
-
-
-TestModellerLogger.SetLastNodeGuid("d0ca1211-df90-488b-a0c0-e841ed6d76a5");
-_OpenClient.Enter_EnterClientName(data[7]);
-
-
-TestModellerLogger.SetLastNodeGuid("4f7d6ed5-0600-42c8-a4d5-cf5ee8710c93");
-_OpenClient.Click_ClickSearch();
-
-
-TestModellerLogger.SetLastNodeGuid("7d1c5e4e-2c98-44f6-9046-8c959f182449");
-_OpenClient.Click_ClickClient();
-
-
-payslip_Green _payslip = new payslip_Green(driver);
-//TestModellerLogger.SetLastNodeGuid("300a58c3-f94e-454a-a07e-b59f42067db9");
-//_payslip.GoToUrl();
-//
-//
-//TestModellerLogger.SetLastNodeGuid("cd342f2a-6174-45a8-825e-cfb2a6fc10fc");
-//_payslip.AssertUrl();
-//
-
-TestModellerLogger.SetLastNodeGuid("b8f497b9-33c0-4c39-bf26-595e889fe36f");
-_payslip.Click_ClickPayroll();
-    
-    
-//    PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
-//	
-//	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
-//    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
-
-
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-
+ 
 
 
     }

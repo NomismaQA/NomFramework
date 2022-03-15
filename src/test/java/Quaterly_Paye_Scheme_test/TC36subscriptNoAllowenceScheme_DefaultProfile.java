@@ -146,7 +146,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("e211e2aa-4b5d-4d68-9852-9638070b28a4");
-    _AllowenceScheme.Click_gotoPayrollDashboard();
+    _AllowenceScheme.Click_gotoPayrollDashboard1();
     
 
     TestModellerLogger.SetLastNodeGuid("2699015c-0e09-4e7c-a038-914b7cda00e7");

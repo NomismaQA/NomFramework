@@ -215,30 +215,18 @@ pages.TaxAndReport _TaxAndReport = new pages.TaxAndReport(driver);
     _leavertesting.Click_gotoFilingManagement();
     
     
+PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDashboardUI.PayrollDashboardCheck(driver);
+	
+	TestModellerLogger.SetLastNodeGuid("ba20616f-2ad5-40d5-9166-657bb6b0822f");
+    _PayrollDashboardCheck.Click_gotoPayrollDashboardBtn();
 
-//    TestModellerLogger.SetLastNodeGuid("63af41d9-6bd2-461f-bf65-cd4ad17a8ca7");
-//    _TaxAndReport.Click_gotoReports();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("1aeb3e46-f37b-4596-ae6d-bba764c13be0");
-//    _TaxAndReport.Click_clickP11();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("75096b09-fb87-4c76-a471-f37a047f05d3");
-//    _TaxAndReport.Click_ExporttoPDF2();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("9023de17-23e0-40a1-8bfe-f449404f838e");
-//    _TaxAndReport.Click_gotoReports();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("414cc8b6-3ec0-4df2-865d-b222bc565e54");
-//    _TaxAndReport.Click_clickPayslips();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("7529f9a6-6da8-465b-ada8-6046616e418b");
-//    _TaxAndReport.Click_downloadPayslip();
-//    
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
+
 
 
     

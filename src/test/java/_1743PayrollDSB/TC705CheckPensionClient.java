@@ -94,9 +94,9 @@ pages.agentpage _agentpage = new pages.agentpage(driver);
     TestModellerLogger.SetLastNodeGuid("31e69eb8-8982-4015-8561-579f3ddb99e9");
     _AgentDsbPayroll.Click_Pension();
     
-    _AgentDsbPayroll.getTableCountofAutoPayroll();
-    
-    _AgentDsbPayroll.verifyAutoPayrollCount();
+//    _AgentDsbPayroll.getTableCountofAutoPayroll();
+//    
+//    _AgentDsbPayroll.verifyAutoPayrollCount();
     
     }
 }

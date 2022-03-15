@@ -127,29 +127,7 @@ PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDas
     
         
     	_1956Page._1956 __1956 = new _1956Page._1956(driver);
-//    TestModellerLogger.SetLastNodeGuid("a298023a-f6c9-47fd-9e0f-6c54659d96e9");
-//    __1956.GoToUrl();
-//
-//    TestModellerLogger.SetLastNodeGuid("be7b8940-a555-4e8f-b2df-1cd62ebe1c7a");
-//    __1956.AssertUrl();
 
-//    TestModellerLogger.SetLastNodeGuid("93943e8c-9968-4e91-8c66-48039ee75141");
-//    __1956.Click__Add_Leave_();
-//
-//    TestModellerLogger.SetLastNodeGuid("57c317a0-f1e8-45c9-9037-c7cf3b73b66a");
-//    __1956.Select_selectEmployee("Mr. A last");
-//
-//    TestModellerLogger.SetLastNodeGuid("5c39aae4-de78-4df0-a7ac-680f16fe9438");
-//    __1956.Select_selectLeaveType("Holiday");
-//
-//    TestModellerLogger.SetLastNodeGuid("f2d25e7b-471f-4915-9687-67fd0db3267f");
-//    __1956.Enter_LeaveStartDate("44397");
-//
-//    TestModellerLogger.SetLastNodeGuid("28ff7fd7-3ffd-4f61-b0f5-1dc057192e10");
-//    __1956.Enter_LeaveEndDate("2021-11-13 09:14:03");
-//
-//    TestModellerLogger.SetLastNodeGuid("c17286aa-d654-41d8-b587-254a0be40711");
-//    __1956.Click_Save();
 
     TestModellerLogger.SetLastNodeGuid("633b6e69-d1a1-44e0-97a6-2a0f3f944fb6");
     __1956.Click_Leave_Report();
@@ -163,41 +141,6 @@ PayrollDashboardUI.PayrollDashboardCheck _PayrollDashboardCheck = new PayrollDas
     
     TestModellerLogger.SetLastNodeGuid("33774d3f-7e25-44ae-a766-877869287df1");
     __1956.Click_Search1();
-//
-//    TestModellerLogger.SetLastNodeGuid("c4ad733f-22b6-4f34-bad4-743abb8d88b8");
-//    __1956.Click_getLeaveBalance();
-//    
-//    
-//    TestModellerLogger.SetLastNodeGuid("378ba543-1d93-4703-8c2d-033df3274a6c");
-//    __1956.Click_gotoReports();
-//
-//    TestModellerLogger.SetLastNodeGuid("33774d3f-7e25-44ae-a766-877869287df1");
-//    __1956.Click_Payslips();
-//    
-//    TestModellerLogger.SetLastNodeGuid("3e389556-315a-4c5f-8ac2-6bcfa8687677");
-//    __1956.openPayslip();
-//    
-//    TestModellerLogger.SetLastNodeGuid("c4ad733f-22b6-4f34-bad4-743abb8d88b8");
-//    __1956.getPayslip();
-//    
-//    
-//    TestModellerLogger.SetLastNodeGuid("633b6e69-d1a1-44e0-97a6-2a0f3f944fb6");
-//    __1956.Click_Leave_Report();
-//
-//    TestModellerLogger.SetLastNodeGuid("7851865b-ef60-474d-b233-d70f302c524c");
-//    __1956.Select_Period(data[5]);
-//
-//    TestModellerLogger.SetLastNodeGuid("3e389556-315a-4c5f-8ac2-6bcfa8687677");
-//    __1956.Enter_Select_Employee(data[6]);
-//    
-//    
-//    TestModellerLogger.SetLastNodeGuid("33774d3f-7e25-44ae-a766-877869287df1");
-//    __1956.Click_Search();
-//    
-    
-
-//    TestModellerLogger.SetLastNodeGuid("378ba543-1d93-4703-8c2d-033df3274a6c");
-//    __1956.Click_gotoReports();
 
     
 
@@ -295,41 +238,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
         
     	_1956Page._1956 __1956 = new _1956Page._1956(driver);
-//    TestModellerLogger.SetLastNodeGuid("a298023a-f6c9-47fd-9e0f-6c54659d96e9");
-//    __1956.GoToUrl();
-//
-//    TestModellerLogger.SetLastNodeGuid("be7b8940-a555-4e8f-b2df-1cd62ebe1c7a");
-//    __1956.AssertUrl();
-//
-//    TestModellerLogger.SetLastNodeGuid("93943e8c-9968-4e91-8c66-48039ee75141");
-//    __1956.Click__Add_Leave_();
-//
-//    TestModellerLogger.SetLastNodeGuid("57c317a0-f1e8-45c9-9037-c7cf3b73b66a");
-//    __1956.Select_selectEmployee("Mr. A last");
-//
-//    TestModellerLogger.SetLastNodeGuid("5c39aae4-de78-4df0-a7ac-680f16fe9438");
-//    __1956.Select_selectLeaveType("Holiday");
-//
-//    TestModellerLogger.SetLastNodeGuid("f2d25e7b-471f-4915-9687-67fd0db3267f");
-//    __1956.Enter_LeaveStartDate("2022-05-29 22:50:41");
-//
-//    TestModellerLogger.SetLastNodeGuid("28ff7fd7-3ffd-4f61-b0f5-1dc057192e10");
-//    __1956.Enter_LeaveEndDate("44397");
-//
-//    TestModellerLogger.SetLastNodeGuid("c17286aa-d654-41d8-b587-254a0be40711");
-//    __1956.Click_Save();
-//
-//    TestModellerLogger.SetLastNodeGuid("633b6e69-d1a1-44e0-97a6-2a0f3f944fb6");
-//    __1956.Click_Leave_Report();
-//
-//    TestModellerLogger.SetLastNodeGuid("7851865b-ef60-474d-b233-d70f302c524c");
-//    __1956.Select_Period("01/01/2021 - 31/12/2021");
-//
-//    TestModellerLogger.SetLastNodeGuid("3e389556-315a-4c5f-8ac2-6bcfa8687677");
-//    __1956.Enter_Select_Employee("");
-//
-//    TestModellerLogger.SetLastNodeGuid("c4ad733f-22b6-4f34-bad4-743abb8d88b8");
-//    __1956.Click_getLeaveBalance();
+
 
     TestModellerLogger.SetLastNodeGuid("378ba543-1d93-4703-8c2d-033df3274a6c");
     __1956.Click_gotoReports();
@@ -340,8 +249,6 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     TestModellerLogger.SetLastNodeGuid("3e389556-315a-4c5f-8ac2-6bcfa8687677");
     __1956.leavesverifyScreenshot1();
     
-//    TestModellerLogger.SetLastNodeGuid("c4ad733f-22b6-4f34-bad4-743abb8d88b8");
-//    __1956.getPayslip();
 
     }
 

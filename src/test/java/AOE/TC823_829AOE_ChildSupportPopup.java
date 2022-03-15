@@ -350,7 +350,7 @@ addDeduction.DeleteAOE();
 
     }
     
-    @Test  (priority=3,enabled=false, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
+    @Test  (priority=3,enabled=true, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
     @TestModellerPath(guid = "90798a2f-7a6d-4763-802e-d996fa55fb26")
     public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs3() throws Exception
     {
@@ -500,7 +500,7 @@ addDeduction.DeleteAOE();
 
     }
     
-    @Test  (priority=4,enabled=false, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
+    @Test  (priority=4,enabled=true, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
     @TestModellerPath(guid = "90798a2f-7a6d-4763-802e-d996fa55fb26")
     public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs4() throws Exception
     {
@@ -650,7 +650,7 @@ pages.leavertesting _leavertesting = new pages.leavertesting(driver);
 
     }
     
-    @Test  (priority=5,enabled=false, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
+    @Test  (priority=5,enabled=true, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
     @TestModellerPath(guid = "90798a2f-7a6d-4763-802e-d996fa55fb26")
     public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs5() throws Exception
     {
@@ -801,7 +801,7 @@ pages.leavertesting _leavertesting = new pages.leavertesting(driver);
 
     }
     
-    @Test  (priority=6,enabled=false, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
+    @Test  (priority=6,enabled=true, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
     @TestModellerPath(guid = "90798a2f-7a6d-4763-802e-d996fa55fb26")
     public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs6() throws Exception
     {
@@ -953,7 +953,7 @@ pages.leavertesting _leavertesting = new pages.leavertesting(driver);
 
     }
     
-    @Test  (priority=7,enabled=false, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
+    @Test  (priority=7,enabled=true, groups= {"LeaverSubscript","LeaverSubscript - Default Profile"})
     @TestModellerPath(guid = "90798a2f-7a6d-4763-802e-d996fa55fb26")
     public void GoToUrlAssertUrlPositiveEnterEnterUsernamePositiveEnterEnterpasswordClickLoginButtonGoToUrlAs7() throws Exception
     {

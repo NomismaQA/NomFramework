@@ -287,8 +287,8 @@ public class FirstEPSFilingmanagement extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_RunPayroll2");
 	}
-
-     
+	
+	
 	/**
  	 * Click gotoFilingManagement
 	 * @throws Exception 
@@ -313,6 +313,34 @@ public class FirstEPSFilingmanagement extends BasePage
 		String Expectedstr="EPS";
 		assertEquals(Actualstr, Expectedstr);
           	
+
+		ExtentReportManager.passStep(m_Driver, "Click_gotoFilingManagement");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_gotoFilingManagement");
+	}
+
+     
+	/**
+ 	 * Click gotoFilingManagement
+	 * @throws Exception 
+     * @name Click gotoFilingManagement
+     */
+	public void Click_gotoFilingManagement1() throws Exception
+	{
+        
+		WebElement elem = getWebElement(gotoFilingManagementElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_gotoFilingManagement", "Click_gotoFilingManagement failed. Unable to locate object: " + gotoFilingManagementElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_gotoFilingManagement", "Click_gotoFilingManagement failed. Unable to locate object: " + gotoFilingManagementElem.toString());
+
+			Assert.fail("Unable to locate object: " + gotoFilingManagementElem.toString());
+        }
+
+		elem.click();
+		
+
 
 		ExtentReportManager.passStep(m_Driver, "Click_gotoFilingManagement");
 

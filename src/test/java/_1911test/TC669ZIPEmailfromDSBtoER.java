@@ -255,41 +255,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
   
   
   
-  VerifyEmailsData.PayrollDsbEmailBody _PayrollDsbEmailBody = new VerifyEmailsData.PayrollDsbEmailBody(driver);
-  
- 	TestModellerLogger.SetLastNodeGuid("76227d22-84e4-4fc9-9614-7542782d7a70");
-    _PayrollDsbEmailBody.Click_clickRunPayroll1();
-    
 
-    TestModellerLogger.SetLastNodeGuid("226f6549-cfa9-4a48-89b6-6f134625a6c5");
-    _PayrollDsbEmailBody.Select_selectPaySlipTemplate(data[6]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("1a18737c-e1ab-42ed-920e-0a4c22ddc751");
-    _PayrollDsbEmailBody.Click_RunPayroll2();
-    
-    
-//    TestModellerLogger.SetLastNodeGuid("1a18737c-e1ab-42ed-920e-0a4c22ddc751");
-//    _PayrollDsbEmailBody.TakeSConDSB();
-    
-   TestModellerLogger.SetLastNodeGuid("3dbb815a-3944-4f29-a1b0-f2623fa8ee8c");
-    _PayrollDsbEmailBody.Click_clickSend();
-    
-    PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-
-
-    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-    _PayrollDoUndo.Click_Undo_Last_Payroll_();
-  
-  
-//  TestModellerLogger.SetLastNodeGuid("ca14ab73-7f7d-4485-afff-c2a7aa71b576");
-//  _paswProtectionPDF.Select_SelectPaswdProtectionFormat(data[7]);
-//    
-//  TestModellerLogger.SetLastNodeGuid("80af7c8d-d174-4330-ae3d-d09047f3fdc2");
-//  _PaymentMmgt.Click_clickSave();
-//  
-  
- 
   
 
   

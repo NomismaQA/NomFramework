@@ -1030,7 +1030,7 @@
  	</test>
  	
  	
- 	<test name= "TC36subscriptNoAllowenceScheme_DefaultProfile" enabled="true">  
+ 	<test name= "TC36subscriptNoAllowenceScheme_DefaultProfile" enabled="false">  
   		 
  			<classes> 
     				<class name= "Quaterly_Paye_Scheme_test.TC36subscriptNoAllowenceScheme_DefaultProfile"/>
@@ -1291,7 +1291,7 @@
  	</test>
  	
  	
- 	<test name= "TC26subscriptFillingManagment_DefaultProfile" enabled="true">  
+ 	<test name= "TC26subscriptFillingManagment_DefaultProfile" enabled="false">  
   		 
  			<classes> 
     				<class name= "test.frequency.TC26subscriptFillingManagment_DefaultProfile"/>
@@ -1566,7 +1566,7 @@
  	</test>
  	
  	
- 	<test name= "TC75VCPension_DefaultProfile" enabled="true">  
+ 	<test name= "TC75VCPension_DefaultProfile" enabled="false">  
   		 
  			<classes> 
     				<class name= "Volentry_Pension.TC75VCPension_DefaultProfile"/>
@@ -1603,7 +1603,7 @@
  		
  				
  		
- 		<test name= "TC177EPSgenin1st_and_last" enabled="true">  
+ 		<test name= "TC177EPSgenin1st_and_last" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC177EPSgenin1st_and_last"/>
@@ -1612,7 +1612,7 @@
  		</test>
  		
  		
- 		<test name= "TC178EPSgenwhenNoEmp" enabled="true">  
+ 		<test name= "TC178EPSgenwhenNoEmp" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC178EPSgenwhenNoEmp"/>
@@ -1623,7 +1623,7 @@
  		
  		
  		
- 		<test name= "TC179EPSgeninlast" enabled="true">  
+ 		<test name= "TC179EPSgeninlast" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC179EPSgeninlast"/>
@@ -1633,7 +1633,7 @@
  		
  		
  		
- 		<test name= "TC180EPSwhenSPP" enabled="true">  
+ 		<test name= "TC180EPSwhenSPP" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC180EPSwhenSPP"/>
@@ -1642,7 +1642,7 @@
  		</test>
  		
  		
- 		<test name= "TC181EPSwhenSMP" enabled="true">  
+ 		<test name= "TC181EPSwhenSMP" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC181EPSwhenSMP"/>
@@ -1651,7 +1651,7 @@
  		</test>
  		
  		
- 		<test name= "TC182EPSwhenCIS" enabled="true">  
+ 		<test name= "TC182EPSwhenCIS" enabled="false">  
   		 
  			<classes> 
     				<class name= "_1747EPSverification.TC182EPSwhenCIS"/>
@@ -3012,7 +3012,7 @@
  		<test name= "TC395_397_1912WeeklyowSalary" enabled="true">  
   		 
  			<classes> 
-    				<class name= "_1912.TC395_397_1912WeeklyowSalary"/>
+    				<class name= "_1942_2010.TC395_397_1912WeeklyowSalary"/>
    			</classes> 		
   			
  		</test>

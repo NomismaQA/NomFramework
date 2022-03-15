@@ -146,35 +146,7 @@ pages.paswProtectionPDF _paswProtectionPDF = new pages.paswProtectionPDF(driver)
     _paswProtectionPDF.Click_clickSave();
     
 
-    TestModellerLogger.SetLastNodeGuid("fb15ea15-0a67-4c84-b08c-163589b5cb1d");
-    _paswProtectionPDF.Click_gotoPayrollDashboard();
-    
-
-    TestModellerLogger.SetLastNodeGuid("eb729bbe-d0d3-47e4-906e-df965e08e35b");
-    _paswProtectionPDF.Click_RunPayroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("af084283-548d-4a90-bbd6-5b53aa618444");
-    _paswProtectionPDF.Select_SelectcontactOption("To Main Contact");
-    
-//
-//    TestModellerLogger.SetLastNodeGuid("48421937-9736-470e-b3a5-95bc2c3033a0");
-//    _paswProtectionPDF.Click_RunPayroll2();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("08415b29-7e2a-417b-959f-5eb9e939cca5");
-//    _paswProtectionPDF.Click_PayrollgeneratedMessage();
-//    
-    
-    pages.PayrollEmailPopup _vikas_test = new pages.PayrollEmailPopup(driver);
-    // pages.paswProtectionPDF _paswProtectionPDF = new pages.paswProtectionPDF(driver); 
-     TestModellerLogger.SetLastNodeGuid("03528a57-42c6-47f4-823e-37ae8ccb0042");
-     _vikas_test.Click_RunPayroll2();
-     
-
-     TestModellerLogger.SetLastNodeGuid("5d21fc91-3e12-4bd3-af4a-bfdcd57131d4");
-     _vikas_test.Click__Send_();
-     
+ 
 
     }
 /*

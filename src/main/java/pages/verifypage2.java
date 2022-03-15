@@ -148,4 +148,14 @@ public class verifypage2 extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_gotoFilingManagement");
 	}
+
+
+	public void undoSubmission() {
+		// TODO Auto-generated method stub
+		
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl02_btnUndo']")).click();
+		
+		m_Driver.switchTo().alert().accept();
+		
+	}
 }

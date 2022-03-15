@@ -232,4 +232,14 @@ public class PayrollDoUndo extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_closepopup");
 	}
+
+
+	public void Click_Undo_Deregister() 
+	{
+		// TODO Auto-generated method stub
+		m_Driver.findElement(By.xpath("//a[contains(text(),'Undo DeRegist')]")).click();
+		
+		m_Driver.switchTo().alert().accept();
+		
+	}
 }

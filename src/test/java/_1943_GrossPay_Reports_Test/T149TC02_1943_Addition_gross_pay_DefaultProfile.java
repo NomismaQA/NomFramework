@@ -127,24 +127,11 @@ public class T149TC02_1943_Addition_gross_pay_DefaultProfile extends TestBase
     _Gross_Pay_Calculation.Click_EE_GrossPay();
     
 
-    TestModellerLogger.SetLastNodeGuid("018d7507-efbb-477e-b0d2-8599698131f7");
-    _Gross_Pay_Calculation.Click_clickRun_Payroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("f4e0d203-f17e-409f-8a75-aff33f531ef7");
-    _Gross_Pay_Calculation.Click_clickRun_Payroll2();
-    
 
     TestModellerLogger.SetLastNodeGuid("f47eca97-5dbe-42ad-a56f-66e2eeecd557");
     _Gross_Pay_Calculation.Click_gotoReports();
     
-
-    TestModellerLogger.SetLastNodeGuid("f47eca97-5dbe-42ad-a56f-66e2eeecd557");
-    _Gross_Pay_Calculation.Click_Payslipsclick();
-    
-//    TestModellerLogger.SetLastNodeGuid("4ddd4a5f-c403-4212-bc46-297d7be60da2");
-//    _Gross_Pay_Calculation.Click_getTotalBasicPay();
-//    
+   
 
     pages.leavertesting3 _leavertesting = new pages.leavertesting3(driver);
     
@@ -158,35 +145,14 @@ public class T149TC02_1943_Addition_gross_pay_DefaultProfile extends TestBase
 
     TestModellerLogger.SetLastNodeGuid("30c9a3c5-7da0-4e63-9f1b-c116c58016df");
     _DeregisterwithEmployee.Select_StatusSearch1(data[5]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("a3524d39-3d26-45a6-bc91-6b5104c4ce02");
-    _DeregisterwithEmployee.Click_SelectCheckBox();
-    
-
-    TestModellerLogger.SetLastNodeGuid("8122f2d7-794b-451a-8976-64e237769729");
-    _DeregisterwithEmployee.Select_SubmitReason(data[6]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("11a48221-7314-4ea1-8bea-d3f16636ad0b");
-    _DeregisterwithEmployee.Click_SubmitToHMRC();
-    
 
     TestModellerLogger.SetLastNodeGuid("cf90a187-3906-4b7c-9765-08f62e97afaf");
     _Gross_Pay_Calculation.Click_clickEmployerView();
     
 
-    TestModellerLogger.SetLastNodeGuid("cbcca883-9c3c-4ad7-899c-5c70d3179851");
-    _Gross_Pay_Calculation.Click_clickERDashboard();
-    
-
     TestModellerLogger.SetLastNodeGuid("2eb37dfa-7a1e-4598-b27d-996d46928103");
     _Gross_Pay_Calculation.Click_clickERReports();
-    
-
-    TestModellerLogger.SetLastNodeGuid("ab44c269-de94-427e-8b87-227df0b654d7");
-    _Gross_Pay_Calculation.Click_clickERPayslips();
-    
+      
     
     
     }

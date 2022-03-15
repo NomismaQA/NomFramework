@@ -126,25 +126,6 @@ payslip_Blue _payslip = new payslip_Blue(driver);
     TestModellerLogger.SetLastNodeGuid("3517f720-6625-4f86-9d29-386402999915");
     _payslip.Click_clickPayrollSettings();
     
-    pages.frequency.monthlyFrequency _monthlyFrequency = new pages.frequency.monthlyFrequency(driver);
-//    TestModellerLogger.SetLastNodeGuid("4ebb191a-250b-4259-993e-b945d5c37653");
-//    _monthlyFrequency.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("6da5ccfb-dc86-49a8-adc0-c1d4ef15f340");
-//    _monthlyFrequency.AssertUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("f7b06552-e3e0-4d59-a287-cd1b011429f8");
-    _monthlyFrequency.Click_clickAdditionalFrequecy();
-    
-
-    TestModellerLogger.SetLastNodeGuid("148cc9d6-b879-4994-bea0-96d9dd9f32f4");
-    _monthlyFrequency.Select_SelectpayMode(data[5]);
-    
-
-//    TestModellerLogger.SetLastNodeGuid("808e80ca-7535-4a1d-8ae6-cf09afb555d1");
-//    _monthlyFrequency.Select_MonthlyPayDay(data[6]);
 
 
 pages.FrequencySet _FrequencySet = new pages.FrequencySet(driver);
@@ -172,6 +153,13 @@ pages.FrequencySet _FrequencySet = new pages.FrequencySet(driver);
 
     TestModellerLogger.SetLastNodeGuid("d10efd7b-df4a-4dfc-acf2-97992c2e4340");
     _runpayrollpage.Click_ClickRunPayroll2();
+    
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
     
 
     }

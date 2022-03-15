@@ -23,7 +23,7 @@ public class ChangeTaxCodeTest_DefaultProfile extends TestBase
     
     @Test  (groups= {"ChangeTaxCodeTest","ChangeTaxCodeTest - Default Profile"})
     @TestModellerPath(guid = "f7a1b877-b66e-4ab6-837d-c3f522a6d535")
-    public void GoToUrlAssertUrlEntersearchEmployeeClickSearchClickClickOnEmpClickEditemployeedetailsClickMan()
+    public void GoToUrlAssertUrlEntersearchEmployeeClickSearchClickClickOnEmpClickEditemployeedetailsClickMan() throws InterruptedException
     {
         
     	Tax_CodePage.ChangeTaxCode _ChangeTaxCode = new Tax_CodePage.ChangeTaxCode(driver);

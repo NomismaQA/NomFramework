@@ -34,9 +34,9 @@ public class _2129SummaryJournal extends BasePage
 
 	private By Wages_JournalAgentElem = By.xpath("//*[@id='Reports']/table/tbody/tr[4]/td/a");
 
-	private By TaxYearElem = By.xpath("//label[normalize-space()= 'Tax Year :']/../select");
+	private By TaxYearElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_ddlTaxYear']");
 
-	private By PayrollDateElem = By.xpath("//label[normalize-space()= 'Payroll Date :']/../select");
+	private By PayrollDateElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_ddlPayrollDate']");
 	
 	private By PayrollDateElem1 = By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_ddlTaxMonth']");
 
@@ -87,9 +87,10 @@ public class _2129SummaryJournal extends BasePage
      
 	/**
  	 * Click Reports
+	 * @throws InterruptedException 
      * @name Click Reports
      */
-	public void Click_Reports()
+	public void Click_Reports() throws InterruptedException
 	{
         
 		WebElement elem = getWebElement(ReportsElem);
@@ -102,6 +103,7 @@ public class _2129SummaryJournal extends BasePage
 			Assert.fail("Unable to locate object: " + ReportsElem.toString());
         }
 
+		Thread.sleep(5000);
 		elem.click();
           	
 

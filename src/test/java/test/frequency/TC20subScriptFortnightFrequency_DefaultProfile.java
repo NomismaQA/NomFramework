@@ -128,24 +128,7 @@ payslip_Green _payslip = new payslip_Green(driver);
     
     
     pages.frequency.fortnightFrequency _fortnightFrequency = new pages.frequency.fortnightFrequency(driver);
-//    TestModellerLogger.SetLastNodeGuid("a96ff942-6ffa-4746-b9f0-456f3bd5349b");
-//    _fortnightFrequency.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("00e8c7bc-1f6c-49e6-b499-5e7fe8763f9a");
-//    _fortnightFrequency.AssertUrl();
-    
 
-    TestModellerLogger.SetLastNodeGuid("6601bd47-1c1b-47b3-8464-487ad0fcfd24");
-    _fortnightFrequency.Click_clickAdditionalFrequecy();
-    
-
-    TestModellerLogger.SetLastNodeGuid("da1f6e2d-9522-4c0a-8584-ea66d1f6ddc7");
-    _fortnightFrequency.Select_selectpayMode1(data[5]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("6538ec3d-15fc-4e2f-aa36-a93b4caca474");
-    _fortnightFrequency.Enter_FortnightlyPayrollEndDate(data[6]);
     
 
     TestModellerLogger.SetLastNodeGuid("b0b855c6-6b24-4579-b5de-e4971d73aa96");
@@ -154,39 +137,10 @@ payslip_Green _payslip = new payslip_Green(driver);
 
   
 
-//pages.FrequencySet _FrequencySet = new pages.FrequencySet(driver);
-////    TestModellerLogger.SetLastNodeGuid("564b814b-70d6-49c1-857a-a401e4415828");
-////    _FrequencySet.GoToUrl();
-////    
-////
-////    TestModellerLogger.SetLastNodeGuid("09a3be4f-3775-47cb-8139-af0fa98ee4ba");
-////    _FrequencySet.AssertUrl();
-////    
-//
-//    TestModellerLogger.SetLastNodeGuid("10360639-06a2-4153-a923-94b7e129ad51");
-//    _FrequencySet.Click_ClickAdditionalFrequecy();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("bc000deb-9644-44f3-8250-44ab14c168ca");
-//    _FrequencySet.Select_payMode("Fortnightly");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("bf31ec7a-a244-44c7-9b9e-340dd1c8ce83");
-//    _FrequencySet.Enter_SelectFrequency("30/05/2020");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("accce833-ca74-4808-808d-69fc58f96bd8");
-//    _FrequencySet.Click_clickSave();
-//    
+
 
 pages.frequency.runpayrollpagefortnight _runpayrollpage = new pages.frequency.runpayrollpagefortnight(driver);
-//    TestModellerLogger.SetLastNodeGuid("41775e8c-28c4-4cba-954e-aca841f0ed7d");
-//    _runpayrollpage.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("0518b3a7-d88c-4e37-bacb-9ad4acff8239");
-//    _runpayrollpage.AssertUrl();
-//    
+  
 
     TestModellerLogger.SetLastNodeGuid("94626dd9-1b9e-47de-aee8-c1d2c0d8ec6f");
     _runpayrollpage.Click_gotoPayrollDashboard();
@@ -198,6 +152,14 @@ pages.frequency.runpayrollpagefortnight _runpayrollpage = new pages.frequency.ru
 
     TestModellerLogger.SetLastNodeGuid("d10efd7b-df4a-4dfc-acf2-97992c2e4340");
     _runpayrollpage.Click_ClickRunPayroll2();
+    
+    
+
+PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
+
+
+	    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
+	    _PayrollDoUndo.Click_Undo_Last_Payroll_();
     
 
    

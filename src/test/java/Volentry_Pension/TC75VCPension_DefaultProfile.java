@@ -195,12 +195,12 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     _VC_Pension.Click_gotoPayroll_Dashboard();
     
 
-    TestModellerLogger.SetLastNodeGuid("a69e1686-89c1-4f85-8eeb-71e34a39d420");
-    _VC_Pension.Click_Run_Payroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("a3ec9662-0b8d-4fa6-be1f-e7f36062aeb6");
-    _VC_Pension.Click_Run_Payroll2();
+//    TestModellerLogger.SetLastNodeGuid("a69e1686-89c1-4f85-8eeb-71e34a39d420");
+//    _VC_Pension.Click_Run_Payroll1();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("a3ec9662-0b8d-4fa6-be1f-e7f36062aeb6");
+//    _VC_Pension.Click_Run_Payroll2();
     
 
     TestModellerLogger.SetLastNodeGuid("fa407cbb-fb1c-4d2c-973b-acb202824da9");

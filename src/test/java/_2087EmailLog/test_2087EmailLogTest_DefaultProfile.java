@@ -23,7 +23,7 @@ public class test_2087EmailLogTest_DefaultProfile extends TestBase
     
     @Test  (groups= {"_2087EmailLogTest","_2087EmailLogTest - Default Profile"})
     @TestModellerPath(guid = "1510056c-d0d5-4380-83f4-8f26b6e90147")
-    public void GoToUrlAssertUrlClickclickOnPersonClickEmailLogClickgetLogCount()
+    public void GoToUrlAssertUrlClickclickOnPersonClickEmailLogClickgetLogCount() throws InterruptedException
     {
         
     	_2087EmailLogPage._2087EmailLog __2087EmailLog = new _2087EmailLogPage._2087EmailLog(driver);

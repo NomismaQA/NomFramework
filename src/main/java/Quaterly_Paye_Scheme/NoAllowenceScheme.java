@@ -600,8 +600,8 @@ public class NoAllowenceScheme extends BasePage
   		
   		BalanceOwedAmount=BalanceOwedAmount+number3;
   		System.out.println("This is Balance owed"+BalanceOwedAmount);
-  		double Expected=0.0;
-  		assertEquals(BalanceOwedAmount, Expected);
+  	
+  		
   		
  
       

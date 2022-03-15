@@ -120,27 +120,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
  	TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
         
-    	PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
-//    TestModellerLogger.SetLastNodeGuid("cbb760cf-c05c-4a7d-baa3-fef7e635bc11");
-//    _PayrollDoUndo.GoToUrl();
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("67ca8b3f-4ce5-46da-83b8-cc74ad89d794");
-//    _PayrollDoUndo.AssertUrl();
-    
-
-    TestModellerLogger.SetLastNodeGuid("5b352d43-6f19-4f73-b2ec-bc79577eb857");
-    _PayrollDoUndo.Click_RunPayroll1();
-    
-
-    TestModellerLogger.SetLastNodeGuid("21c1b047-4521-4814-a8ef-f2520560bfa3");
-    _PayrollDoUndo.Click_RunPayroll2();
-    
-   
-    Tax_CodePage.ChangeTaxCode _ChangeTaxCode = new Tax_CodePage.ChangeTaxCode(driver);
-    
-    TestModellerLogger.SetLastNodeGuid("469204e4-d88b-4863-bd07-df9b8486d9cb");
-    _ChangeTaxCode.validateTaxCode();
+ 
     
 
     }
@@ -238,12 +218,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
  	TestModellerLogger.SetLastNodeGuid("9943263e-4101-41b1-b065-ee4d78e4cc38");
 	_verifyClosePayeErrorMessageOOPS.Click_ClickPayroll();
         
-    	PayrollDashboardUI.PayrollDoUndo _PayrollDoUndo = new PayrollDashboardUI.PayrollDoUndo(driver);
 
-
-    TestModellerLogger.SetLastNodeGuid("25154369-7bfc-4262-9657-22be161ad383");
-    _PayrollDoUndo.Click_Undo_Last_Payroll_();
- 
     }
 
 }

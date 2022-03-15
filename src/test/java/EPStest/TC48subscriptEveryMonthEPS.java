@@ -136,23 +136,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 	    _payslip.Click_clickSearch();
 	    
 
-	    TestModellerLogger.SetLastNodeGuid("b69f3861-c4f1-4301-91c4-586a41760159");
-	    _payslip.Click_clickonEmpName();
-	    
 
-//	    TestModellerLogger.SetLastNodeGuid("de2cc3a7-c470-441a-ba87-11d78ae67dce");
-//	    _payslip.Click_clickAddLeave();
-//	    
-//	    
-//	    _payslip.start_and_end_date();
-//	    
-	    
-	   // _payslip.Enter_getStartDatePaternity(Sheet);
-    
-//    EPS.methodstoCalculateDates _getdate=new EPS.methodstoCalculateDates(driver);
-//    		
-//    		_getdate.getPayrollDate();
-//    
     
     }
     

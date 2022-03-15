@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="_1957Suite">
+  <test thread-count="5" name="_1957Test">
+    <classes>
+      <class name="_1957PagingandSorting.TC186sendEmailfrompayslipToEmp"/>
+      <class name="_1957PagingandSorting.TC184sendEmailduringPayrolltoEMP"/>
+      <class name="_1957PagingandSorting.TC188sendEmailfrompayslipToBoth"/>
+      <class name="_1957PagingandSorting.TC185sendEmailduringPayrolltoMainContact"/>
+      <class name="_1957PagingandSorting.TC187sendEmailfrompayslipToER"/>
+      <class name="_1957PagingandSorting.TC183Sorting"/>
+    </classes>
+  </test> <!-- _1957Test -->
+</suite> <!-- _1957Suite -->

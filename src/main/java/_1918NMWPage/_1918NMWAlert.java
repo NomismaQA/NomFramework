@@ -205,7 +205,9 @@ public class _1918NMWAlert extends BasePage
  		Thread.sleep(2000);
  		elem.sendKeys(EmpJoiningDate);
  		
- 		Thread.sleep(1000);
+ 		elem.sendKeys(Keys.TAB);
+ 		
+ 		Thread.sleep(3000);
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_EmpJoiningDate " + EmpJoiningDate);
 
@@ -230,15 +232,17 @@ public class _1918NMWAlert extends BasePage
 
  			Assert.fail("Unable to locate object: " + EmpNICategoryCodeElem.toString());
          }
- 		
- 		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_UpdatePanel1']/h3")).click();
+ 		System.out.println("Hi1");
+ 		jsExec.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+// 		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_UpdatePanel1']/h3")).click();
  		Thread.sleep(3000);
- 		
+ 		System.out.println("Hi2");
  		elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_tbContainer_tpPayrollEmployee_ddlNICategoryCode']"));
+ 		System.out.println("Hi3");
  		Select dropdown = new Select(elem);
-
+ 		System.out.println("Hi4");
  		dropdown.selectByVisibleText(EmpNICategoryCode);
- 		
+ 		System.out.println("Hi5");
  		Thread.sleep(1000);
  		
  		

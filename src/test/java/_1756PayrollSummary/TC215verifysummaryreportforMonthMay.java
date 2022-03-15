@@ -126,28 +126,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
 
 
     	_1943_GrossPay_Reports.Gross_Pay_Calculation _Gross_Pay_Calculation = new _1943_GrossPay_Reports.Gross_Pay_Calculation(driver);
-//    	
-//    	
-//        TestModellerLogger.SetLastNodeGuid("018d7507-efbb-477e-b0d2-8599698131f7");
-//        _Gross_Pay_Calculation.Click_clickRun_Payroll1();
-//        
-//        
-//       	VerifyEmailsData.verifyEmail _verifyEmail = new VerifyEmailsData.verifyEmail(driver);
-//       	
-//       	TestModellerLogger.SetLastNodeGuid("03f45e6e-d068-4171-a094-7d7eaf21e0f2");
-//       	_verifyEmail.Select_SelecttoMainContact(data[5]);
-//        
-//
-//        TestModellerLogger.SetLastNodeGuid("f4e0d203-f17e-409f-8a75-aff33f531ef7");
-//        _Gross_Pay_Calculation.Click_clickRun_Payroll2();
-//        
-//        
-//        TestModellerLogger.SetLastNodeGuid("d3ab9d5a-a46b-4837-b434-80dcffdeb6b7");
-//      _verifyEmail.chekpayroll();
-//      
-//  
-//      TestModellerLogger.SetLastNodeGuid("08fb6589-ee1a-4435-a9dc-9ebf96bddd2b");
-//      _verifyEmail.Click_clickSend();
+
 
 
 		TestModellerLogger.SetLastNodeGuid("aa04cc2d-3731-4ff6-b43d-958eb4e9fe45");
@@ -182,27 +161,7 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     TestModellerLogger.SetLastNodeGuid("e211e2aa-4b5d-4d68-9852-9638070b28a4");
     _AllowenceScheme.Click_gotoPayrollDashboard();
     
-    
-    
-    TestModellerLogger.SetLastNodeGuid("018d7507-efbb-477e-b0d2-8599698131f7");
-    _Gross_Pay_Calculation.Click_clickRun_Payroll1();
-    
-    VerifyEmailsData.verifyEmail _verifyEmail = new VerifyEmailsData.verifyEmail(driver);
-    TestModellerLogger.SetLastNodeGuid("03f45e6e-d068-4171-a094-7d7eaf21e0f2");
-  _verifyEmail.Select_SelecttoMainContact(data[5]);
   
-  
-  	TestModellerLogger.SetLastNodeGuid("f4e0d203-f17e-409f-8a75-aff33f531ef7");
-  	_Gross_Pay_Calculation.Click_clickRun_Payroll2();
-  	
-  	
-  	TestModellerLogger.SetLastNodeGuid("d3ab9d5a-a46b-4837-b434-80dcffdeb6b7");
-    _verifyEmail.chekpayroll();
-    
-
-    TestModellerLogger.SetLastNodeGuid("08fb6589-ee1a-4435-a9dc-9ebf96bddd2b");
-    _verifyEmail.Click_clickSend();
-    
 
     TestModellerLogger.SetLastNodeGuid("2699015c-0e09-4e7c-a038-914b7cda00e7");
     _AllowenceScheme.Click_gotoReports();
@@ -212,12 +171,6 @@ pages.OpenClient _OpenClient = new pages.OpenClient(driver);
     _AllowenceScheme.Click_clickPayrollSummary1();
     
 
-//    TestModellerLogger.SetLastNodeGuid("ecb461e7-351c-46aa-9bc9-076e15f1d048");
-//    _AllowenceScheme.verifysummaryformonthlywhenQuaterly();
-    
-    
-    _AllowenceScheme.iteratedate1();
-    
 
     }
 

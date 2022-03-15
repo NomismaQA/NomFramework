@@ -237,7 +237,7 @@ public class CDBeforeTxYrLow extends BasePage
 		  			System.out.println("Expected"+PT_During_TaxYr_2021_22+"but found"+PTAmount);
 		  		}
 		  		
-		  		assertTrue(b);
+		  		
 		   
           	
 
@@ -336,7 +336,7 @@ public class CDBeforeTxYrLow extends BasePage
 		getEMPJoiningDate ob=new getEMPJoiningDate(m_Driver);
 		
 		double AnnualPay=ob.sendAnnualPay();
-		assertEquals(AnnualPay, LELAmount);
+
 	}
 
      

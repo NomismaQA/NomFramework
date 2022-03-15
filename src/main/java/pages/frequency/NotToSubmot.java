@@ -196,4 +196,12 @@ public class NotToSubmot extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_DownloadPDF");
 	}
+
+
+	public void ClickUndo() throws InterruptedException {
+		
+		Thread.sleep(3000);
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl04_btnUndo']")).click();
+		
+	}
 }

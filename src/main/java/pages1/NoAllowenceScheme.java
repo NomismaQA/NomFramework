@@ -180,6 +180,33 @@ public class NoAllowenceScheme extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_gotoPayrollDashboard");
 	}
+	
+	
+	/**
+ 	 * Click gotoPayrollDashboard
+     * @name Click gotoPayrollDashboard
+     */
+	public void Click_gotoPayrollDashboard1()
+	{
+        
+		WebElement elem = getWebElement(gotoPayrollDashboardElem);
+
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_gotoPayrollDashboard", "Click_gotoPayrollDashboard failed. Unable to locate object: " + gotoPayrollDashboardElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_gotoPayrollDashboard", "Click_gotoPayrollDashboard failed. Unable to locate object: " + gotoPayrollDashboardElem.toString());
+
+			Assert.fail("Unable to locate object: " + gotoPayrollDashboardElem.toString());
+        }
+
+		//elem.click();
+          jsExec.executeScript("arguments[0].click();", elem);	
+          
+ 
+		ExtentReportManager.passStep(m_Driver, "Click_gotoPayrollDashboard");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_gotoPayrollDashboard");
+	}
 
      
 	/**

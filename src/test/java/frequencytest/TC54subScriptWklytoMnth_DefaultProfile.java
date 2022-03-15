@@ -137,12 +137,12 @@ payslip_Blue _payslip = new payslip_Blue(driver);
 ////    _monthlyFrequency.AssertUrl();
     
 
-    TestModellerLogger.SetLastNodeGuid("f7b06552-e3e0-4d59-a287-cd1b011429f8");
-    _monthlyFrequency.Click_clickAdditionalFrequecy();
-    
-
-    TestModellerLogger.SetLastNodeGuid("148cc9d6-b879-4994-bea0-96d9dd9f32f4");
-    _monthlyFrequency.Select_SelectpayMode(data[5]);
+//    TestModellerLogger.SetLastNodeGuid("f7b06552-e3e0-4d59-a287-cd1b011429f8");
+//    _monthlyFrequency.Click_clickAdditionalFrequecy();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("148cc9d6-b879-4994-bea0-96d9dd9f32f4");
+//    _monthlyFrequency.Select_SelectpayMode(data[5]);
     
 
 
